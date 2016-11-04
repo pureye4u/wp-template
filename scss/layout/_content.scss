@@ -1,0 +1,20 @@
+.contents {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 75px;
+    background-color: #000;
+    color: #fff;
+    font-size: 50px;
+}
+
+@media #{$medium-only} {
+    .contents {
+        margin-top: 30px;
+    }
+}
+
+@media #{$small-and-down} {
+    .contents {
+        margin-top: 0;
+    }
+}

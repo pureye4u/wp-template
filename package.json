@@ -1,0 +1,16 @@
+{
+  "name": "biocoz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass ./scss/main.scss ./css/common.css -o",
+    "watch": "node-sass ./scss/main.scss ./css/common.css -o & node-sass ./scss/main.scss ./css/common.css -o -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^3.11.0"
+  }
+}
