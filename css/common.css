@@ -2990,11 +2990,6 @@ nav {
   nav .nav-wrapper {
     position: relative;
     height: 100%; }
-    nav .nav-wrapper .center {
-      width: 546px;
-      margin: 0 auto; }
-      nav .nav-wrapper .center li {
-        width: 182px; }
   @media only screen and (min-width: 993px) {
     nav a.button-collapse {
       display: none; } }
@@ -6541,3 +6536,36 @@ html, body {
 @media only screen and (max-width: 600px) {
   .wrap {
     margin-top: 56px; } }
+
+.gnb {
+  position: relative;
+  width: 546px;
+  height: 100%;
+  margin: 0 auto; }
+  .gnb ul {
+    height: 100%; }
+  .gnb li {
+    width: 182px;
+    height: 100%; }
+    .gnb li a {
+      color: #34b27c;
+      height: 100%; }
+    .gnb li.selected span {
+      display: inline-block;
+      border-bottom: solid 6px #34b27c;
+      height: 100%; }
+  .gnb .highlight-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 6px;
+    background-color: #34b27c;
+    -webkit-transition: width 0.5s, left 0.5s;
+    /* Safari */
+    transition: width 0.5s, left 0.5s; }
+
+.language-box {
+  position: absolute;
+  top: 0;
+  right: 0; }
