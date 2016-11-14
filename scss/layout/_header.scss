@@ -1,28 +1,77 @@
+
+nav {
+    position: fixed;
+    z-index: 100;
+    background: #fff;
+}
+
 .gnb {
     position: relative;
-    width: $gnb-list-width * 3;
+    // width: $gnb-list-width * 3;
+    width: $gnb-width;
     height: 100%;
     margin: 0 auto;
 
-    ul {
-        height: 100%;
+    a {
+        font-family: 'Oswald', sans-serif;
     }
 
-    li {
-        width: $gnb-list-width;
+    ul.normal {
         height: 100%;
 
-        a {
-            color: $gnb-major-color;
+        >li {
+            // width: $gnb-list-width;
+            position: relative;
             height: 100%;
-        }
 
-        &.selected {
-
-            span {
-                display: inline-block;
-                border-bottom: solid $gnb-highlight-size $gnb-major-color;
+            >a {
+                color: $gnb-major-color;
                 height: 100%;
+                padding: 0 40px;
+                font-size: 19px;
+                font-weight: 400;
+
+                span {
+                    padding: 0 10px;
+                }
+            }
+
+            &.selected {
+
+                span {
+                    display: inline-block;
+                    border-bottom: solid $gnb-highlight-size $gnb-major-color;
+                    height: 100%;
+                }
+            }
+
+            .dropdown-content {
+                // min-width: 100%;
+                // width: 100%;
+                left: 50%;
+                margin-left: -$gnb-list-dropdown-width * 0.5;
+                // margin-left: 40px;
+                padding: 21px 0;
+
+                >li {
+                    width: $gnb-list-dropdown-width;
+                    // width: 100%;
+                    min-height: 32px;
+                    margin: -5px 0;
+
+                    &.divider {
+                        min-height: 0;
+                    }
+
+                    a {
+                        padding: 14px 30px;
+                        line-height: 14px;
+                        color: #fff;
+                        font-size: 14px;
+                        font-weight: 300;
+                        letter-spacing: 1px;
+                    }
+                }
             }
         }
     }
@@ -43,4 +92,31 @@
     position: absolute;
     top: 0;
     right: 0;
+
+    > li {
+        padding: 0;
+        > a {
+            display: inline;
+            padding: 0 15px;
+            border-right: 1px solid #ccc;
+            font-size: 11px;
+        }
+    }
+
+    > li:last-of-type > a {
+        border-right: none;
+    }
+}
+
+@media #{$header-center-limit-down} {
+    .gnb {
+        margin-left: 300px;
+    }
+}
+
+@media #{$small-and-down} {
+    .brand-logo >img {
+        width: 150px;
+        padding-top: 8px;
+    }
 }

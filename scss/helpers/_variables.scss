@@ -1,8 +1,12 @@
 $min-width: 320px;
 $mobile-width: 600px;
 $content-width: 1200px;
+$header-center-limit-width: 1280px;
+$header-center-limit-down: "only screen and (max-width : #{$header-center-limit-width})" !default;
 
 // GNB
-$gnb-list-width: 182px;
+$gnb-width: 654px;
+// $gnb-list-width: 182px;
+$gnb-list-dropdown-width: 198px;
 $gnb-highlight-size: 6px;
 $gnb-major-color: #34b27c;

@@ -4,6 +4,10 @@ html, body {
     min-width: $min-width;
 }
 
+body {
+    background: url('../imgs/common/bg_tile.png') center 80px repeat-x;
+}
+
 .wrap {
     position: absolute;
     top: 0;
@@ -12,6 +16,24 @@ html, body {
     left: 0;
     overflow-y: auto;
     margin-top: $navbar-height;
+
+    > .scroll-box {
+        // margin: 0;
+        // max-width: $content-width;
+        // margin: 0 auto;
+        padding: 80px 0 63px;
+        // background-color: #000;
+        // color: #fff;
+        // font-size: 50px;
+
+        &.single-page {
+            background: url('../imgs/main/bg.png') top center no-repeat;
+        }
+
+        &.dual-page {
+            background: url('../imgs/ceomsg/bg.png') top center no-repeat;
+        }
+    }
 }
 
 @media #{$small-and-down} {

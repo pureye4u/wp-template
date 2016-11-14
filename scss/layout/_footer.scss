@@ -1,0 +1,25 @@
+footer {
+    height: 80px;
+    background-color: #131313;
+    overflow: hidden;
+
+    > .copy-box {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+        line-height: 80px;
+
+        ul.sns-button-group {
+            position: absolute;
+            top: 0;
+            right: 0;
+
+            > li {
+                float: left;
+                width: 36px;
+                text-align: center;
+                line-height: 95px;
+            }
+        }
+    }
+}
