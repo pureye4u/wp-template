@@ -6,7 +6,7 @@
     // margin-top: 80px;
     // background-color: #000;
     color: #fff;
-    font-size: 50px;
+    // font-size: 50px;
 }
 
 .single-page .contents {
@@ -18,7 +18,8 @@
 }
 
 .dual-page .page:last-of-type .rnd-list,
-.dual-page .page:last-of-type .rnd-list2 {
+.dual-page .page:last-of-type .rnd-list2,
+.dual-page .page:last-of-type .press-list {
     padding: 0 70px 0 38px;
 }
 
@@ -152,6 +153,59 @@
             }
         }
     }
+
+    .press-list:first-child {
+        padding-top: 108px;
+    }
+
+    .press-list {
+        padding: 0 38px 0 70px;
+
+        .press-list-item {
+            position: relative;
+            height: 144px;
+            margin: 0;
+
+            > a {
+
+                .list-thumb {
+                    position: absolute;
+                    width: 94px;
+                    height: 94px;
+                    overflow: hidden;
+                    border-radius: 100%;
+                }
+
+                .list-content {
+                    margin-left: 126px;
+                    padding: 5px 0;
+
+                    .title {
+                        font-size: 17px;
+                        color: #fff;
+                        line-height: 36px;
+                    }
+
+                    .description {
+                        // height: 30px;
+                        font-size: 13px;
+                        color: #b6b6b6;
+                        line-height: 20px;
+                    }
+
+                    .more {
+                        display: block;
+                        margin-top: 8px;
+                        text-align: right;
+                        color: #fff;
+                        font-size: 13px;
+                        font-style: italic;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .dual-page:after {
@@ -177,6 +231,114 @@
 
 .btn-page-next {
     right: 448px;
+}
+
+.map-area {
+    position: relative;
+    width: 492px;
+    height: 287px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    .map {
+        background-color: #fff;
+
+        &.ko {
+            #mapKo {
+                display: block;
+            }
+            #mapSg {
+                display: none;
+            }
+        }
+        &.sg {
+            #mapKo {
+                display: none;
+            }
+            #mapSg {
+                display: block;
+            }
+        }
+    }
+
+    .tab {
+        position: absolute;
+        right: 0;
+        bottom : 0;
+        width: 288px;
+        height: 71px;
+        padding: 35px 0 0 52px;
+        background: url('../imgs/contact/bg_tab.png') no-repeat;
+
+        > button {
+            float: left;
+            border: none;
+            width: 118px;
+            height: 36px;
+            margin: 0;
+            padding: 0;
+
+            > img {
+                display: block;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}
+
+#btnMapKo {
+    background: url('../imgs/contact/btn_ko.png') no-repeat;
+}
+
+#btnMapSg {
+    background: url('../imgs/contact/btn_sg.png') no-repeat;
+}
+
+.contact-form-container {
+    width: 492px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 48px;
+    border: 2px solid #fff;
+
+    .title {
+        margin-bottom: 30px;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    > .input-box {
+        input[type=text],
+        textarea {
+            display: block;
+            border: 1px solid #595959;
+            font-size: 15px;
+        }
+
+        input[type=text] {
+            width: 356px;
+            height: 36px;
+            margin-bottom: 15px;
+            padding: 0 17px;
+            line-height: 36px;
+        }
+
+        textarea {
+            height: 230px;
+            padding: 17px;
+        }
+    }
+
+    .btn {
+        width: 204px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        background-color: #3090ff;
+        border-radius: 0;
+        font-size: 16px;
+    }
 }
 
 .dim {

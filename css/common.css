@@ -6508,8 +6508,7 @@ input, select {
   max-width: 1200px;
   height: 772px;
   margin: 0 auto;
-  color: #fff;
-  font-size: 50px; }
+  color: #fff; }
 
 .single-page .contents {
   width: 600px; }
@@ -6518,7 +6517,8 @@ input, select {
   padding: 0 50px; }
 
 .dual-page .page:last-of-type .rnd-list,
-.dual-page .page:last-of-type .rnd-list2 {
+.dual-page .page:last-of-type .rnd-list2,
+.dual-page .page:last-of-type .press-list {
   padding: 0 70px 0 38px; }
 
 .dual-page .page {
@@ -6605,6 +6605,39 @@ input, select {
           font-size: 13px;
           font-style: italic;
           text-decoration: underline; }
+  .dual-page .page .press-list:first-child {
+    padding-top: 108px; }
+  .dual-page .page .press-list {
+    padding: 0 38px 0 70px; }
+    .dual-page .page .press-list .press-list-item {
+      position: relative;
+      height: 144px;
+      margin: 0; }
+      .dual-page .page .press-list .press-list-item > a .list-thumb {
+        position: absolute;
+        width: 94px;
+        height: 94px;
+        overflow: hidden;
+        border-radius: 100%; }
+      .dual-page .page .press-list .press-list-item > a .list-content {
+        margin-left: 126px;
+        padding: 5px 0; }
+        .dual-page .page .press-list .press-list-item > a .list-content .title {
+          font-size: 17px;
+          color: #fff;
+          line-height: 36px; }
+        .dual-page .page .press-list .press-list-item > a .list-content .description {
+          font-size: 13px;
+          color: #b6b6b6;
+          line-height: 20px; }
+        .dual-page .page .press-list .press-list-item > a .list-content .more {
+          display: block;
+          margin-top: 8px;
+          text-align: right;
+          color: #fff;
+          font-size: 13px;
+          font-style: italic;
+          text-decoration: underline; }
 
 .dual-page:after {
   content: "";
@@ -6625,6 +6658,81 @@ input, select {
 
 .btn-page-next {
   right: 448px; }
+
+.map-area {
+  position: relative;
+  width: 492px;
+  height: 287px;
+  margin: 0 auto;
+  overflow: hidden; }
+  .map-area .map {
+    background-color: #fff; }
+    .map-area .map.ko #mapKo {
+      display: block; }
+    .map-area .map.ko #mapSg {
+      display: none; }
+    .map-area .map.sg #mapKo {
+      display: none; }
+    .map-area .map.sg #mapSg {
+      display: block; }
+  .map-area .tab {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 288px;
+    height: 71px;
+    padding: 35px 0 0 52px;
+    background: url("../imgs/contact/bg_tab.png") no-repeat; }
+    .map-area .tab > button {
+      float: left;
+      border: none;
+      width: 118px;
+      height: 36px;
+      margin: 0;
+      padding: 0; }
+      .map-area .tab > button > img {
+        display: block;
+        margin: 0;
+        padding: 0; }
+
+#btnMapKo {
+  background: url("../imgs/contact/btn_ko.png") no-repeat; }
+
+#btnMapSg {
+  background: url("../imgs/contact/btn_sg.png") no-repeat; }
+
+.contact-form-container {
+  width: 492px;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 48px;
+  border: 2px solid #fff; }
+  .contact-form-container .title {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: normal; }
+  .contact-form-container > .input-box input[type=text],
+  .contact-form-container > .input-box textarea {
+    display: block;
+    border: 1px solid #595959;
+    font-size: 15px; }
+  .contact-form-container > .input-box input[type=text] {
+    width: 356px;
+    height: 36px;
+    margin-bottom: 15px;
+    padding: 0 17px;
+    line-height: 36px; }
+  .contact-form-container > .input-box textarea {
+    height: 230px;
+    padding: 17px; }
+  .contact-form-container .btn, .contact-form-container .btn-large {
+    width: 204px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #3090ff;
+    border-radius: 0;
+    font-size: 16px; }
 
 .dim {
   position: fixed;

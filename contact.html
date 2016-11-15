@@ -70,28 +70,42 @@
                         <img src="imgs/contact/title.png" />
                     </div>
                     <div class="map-area">
-                        <div class="map">
+                        <div id="mapContainer" class="map ko">
                             <img id="mapKo" src="imgs/contact/map_ko.png" />
                             <img id="mapSg" src="imgs/contact/map_sg.png" />
                         </div>
                         <div class="tab">
-                            <button id="btnMapKo">
-                                <img src="imgs/contact/btn_ko.png" />
-                            </button>
-                            <button id="btnMapSg">
-                                <img src="imgs/contact/btn_sg.png" />
-                            </button>
+                            <button id="btnMapKo" />
+                            <button id="btnMapSg" />
                         </div>
+
+                        <script>
+                        $(function() {
+                            $("#btnMapKo").click(function() {
+                                $("#mapContainer").removeClass("sg").addClass("ko");
+                            });
+                            $("#btnMapSg").click(function() {
+                                $("#mapContainer").removeClass("ko").addClass("sg");
+                            });
+                        })
+                        </script>
                     </div>
                     <div class="address">
                         <img src="imgs/contact/txt_addr.png" />
                     </div>
                 </div>
                 <div class="page">
-                    <img src="imgs/rnd/txt_02.png" />
+                    <div class="contact-form-container">
+                        <h3 class="title">문의하기</h3>
+                        <div class="input-box">
+                            <input type="text" placeholder="제목" />
+                            <input type="text" placeholder="이름" />
+                            <input type="text" placeholder="이메일" />
+                            <textarea placeholder="내용"></textarea>
+                        </div>
+                        <a class="waves-effect waves-light btn">문의하기</a>
+                    </div>
                 </div>
-                <a class="btn-page-prev disabled" href="#"><img src="imgs/common/btn_page_prev.png" /></a>
-                <a class="btn-page-next" href="#"><img src="imgs/common/btn_page_next.png" /></a>
             </div>
         </div>
         <footer>
