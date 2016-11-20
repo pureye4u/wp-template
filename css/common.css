@@ -6571,6 +6571,8 @@ input, select {
           font-size: 13px;
           font-style: italic;
           text-decoration: underline; }
+        .dual-page .page .rnd-list .rnd-list-item > a .list-content .detail-content {
+          display: none; }
   .dual-page .page .rnd-list2:first-child {
     padding-top: 252px; }
   .dual-page .page .rnd-list2 {
@@ -6605,6 +6607,8 @@ input, select {
           font-size: 13px;
           font-style: italic;
           text-decoration: underline; }
+        .dual-page .page .rnd-list2 .rnd-list-item > a .list-content .detail-content {
+          display: none; }
   .dual-page .page .press-list:first-child {
     padding-top: 108px; }
   .dual-page .page .press-list {
@@ -6638,6 +6642,8 @@ input, select {
           font-size: 13px;
           font-style: italic;
           text-decoration: underline; }
+        .dual-page .page .press-list .press-list-item > a .list-content .detail-content {
+          display: none; }
 
 .dual-page:after {
   content: "";
