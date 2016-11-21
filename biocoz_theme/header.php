@@ -7,7 +7,7 @@
                 <li><a class="dropdown-button" href="#" data-activates="dropdown1"><span>BUSINESS</span></a></li>
                 <li><a class="dropdown-button" href="#" data-activates="dropdown2"><span>R&amp;D</span></a></li>
                 <li><a href="/contact-us/"><span>CONTACT US</span></a></li>
-                <li><a href="#"><span>PRESS</span></a></li>
+                <li><a href="/archives/category/press/"><span>PRESS</span></a></li>
             </ul>
             <div class="highlight-bar"></div>
         </div>

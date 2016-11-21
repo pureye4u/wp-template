@@ -25,28 +25,70 @@
 <body <?php body_class(); ?>>
     <?php get_header(); ?>
     <div class="wrap">
-        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <div class="scroll-box">
-            <div class="contents">
-                <div class="dim">
-                    <div class="detail">
-                        <div class="detail-content">
-                            <h2 style="display:none">
-                                <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                            </h2>
-                            <?php the_content(); ?>
+    <div class="scroll-box">
+        <div class="contents">
+            <div class="dim">
+                <div class="detail">
+                    <div class="detail-content">
+<?php if ( have_posts() ) : the_post(); ?>
+                            <ul class="hierarchy">
+<?php
+$categories = get_the_category();
+$hierarchy = array();
+$useTitleBar = false;
+$parentLink = '#';
+if( in_category( 'global-rd-network' ) ) {
+    array_push( $hierarchy, array("title" => "R&D") );
+    array_push( $hierarchy, array("link" => "/global-rd-network", "title" => "GLOBAL R&D NETWORK") );
+    $parentLink = $categories[0]->slug;
+} elseif (in_category( 'research-material' ) ) {
+    array_push( $hierarchy, array("title" => "R&D") );
+    array_push( $hierarchy, array("link" => "/research-material-list-page-1", "title" => "RESEARCH MATERIAL") );
+    $useTitleBar = true;
+    $parentLink = $categories[0]->slug;
+} elseif (in_category( 'press' ) ) {
+    array_push( $hierarchy, array("link" => "/archives/category/press", "title" => "PRESS") );
+    $useTitleBar = true;
+    $parentLink = '/archives/category/' . $categories[0]->slug;
+}
+
+foreach($hierarchy as $node):
+?>
+<?php if( array_key_exists("link", $node) ): ?>
+                                <li><a href="<?php echo $node["link"]; ?>"><?php echo $node["title"]; ?></a></li>
+<?php else: ?>
+                                <li><?php echo $node["title"]; ?></li>
+<?php endif; ?>
+<?php endforeach; ?>
+                            </ul>
+                            <div class="category-name">
+                                <h3><?php echo $categories[0]->cat_name; ?></h3>
+                            </div>
+<?php if ( $useTitleBar ) : ?>
+                            <div class="title-bar">
+                                <h2 class="post-title"><?php the_title(); ?></h2>
+                                <div class="post-info">
+                                    <span class="post-info-author"><?php the_author(); ?></span>
+                                    <span class="post-info-date"><?php echo get_the_date(); ?></span>
+                                </div>
+                            </div>
+<?php endif; ?>
+                            <div class="content-body">
+                                <?php the_content(); ?>
+                            </div>
+<?php else: ?>
+                            내용이 없습니다.
+<?php endif; ?>
                         </div>
                         <div class="detail-btn-box">
-                            <a href="/<?php echo get_the_category()[0]->slug; ?>"><img src="<?php bloginfo('template_url'); ?>/imgs/common/btn_list.png" /></a>
+                            <a href="<?php echo $parentLink; ?>"><img src="<?php bloginfo('template_url'); ?>/imgs/common/btn_list.png" /></a>
                         </div>
-                        <a class="btn-close-detail" href="/<?php echo get_the_category()[0]->slug; ?>"><img src="<?php bloginfo('template_url'); ?>/imgs/common/btn_close_detail.png" /></a>
+                        <a class="btn-close-detail" href="<?php echo $parentLink; ?>"><img src="<?php bloginfo('template_url'); ?>/imgs/common/btn_close_detail.png" /></a>
                     </div>
                 </div>
             </div>
         </div>
-        <?php endwhile; else: ?>
-        <h2>Sorry!</h2>
-        <?php endif; ?>
+
         <?php get_footer(); ?>
     </div>
     <?php wp_footer(); ?>

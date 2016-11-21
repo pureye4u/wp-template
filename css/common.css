@@ -6532,24 +6532,24 @@ input, select {
       position: relative;
       height: 164px;
       margin: 50px 0; }
-      .dual-page .page .rnd-list .rnd-list-item > a .list-thumb {
+      .dual-page .page .rnd-list .rnd-list-item .list-thumb {
         position: absolute;
         width: 122px;
         height: 122px;
         overflow: hidden;
         border-radius: 100%; }
-      .dual-page .page .rnd-list .rnd-list-item > a .list-content {
+      .dual-page .page .rnd-list .rnd-list-item .list-content {
         margin-left: 150px;
         padding: 5px 0; }
-        .dual-page .page .rnd-list .rnd-list-item > a .list-content .title {
+        .dual-page .page .rnd-list .rnd-list-item .list-content .title {
           font-size: 18px;
           color: #fff;
           line-height: 30px; }
-        .dual-page .page .rnd-list .rnd-list-item > a .list-content .sub-title {
+        .dual-page .page .rnd-list .rnd-list-item .list-content .sub-title {
           height: 30px;
           font-size: 16px;
           color: #75b5ff; }
-        .dual-page .page .rnd-list .rnd-list-item > a .list-content .detail-list > li:before {
+        .dual-page .page .rnd-list .rnd-list-item .list-content .detail-list > li:before {
           content: "";
           display: inline-block;
           width: 3px;
@@ -6558,21 +6558,22 @@ input, select {
           background-color: #b6b6b6;
           border-radius: 100%;
           overflow: hidden; }
-        .dual-page .page .rnd-list .rnd-list-item > a .list-content .detail-list > li {
+        .dual-page .page .rnd-list .rnd-list-item .list-content .detail-list > li {
           padding: 4px 0 0 10px;
           font-size: 12px;
           color: #b6b6b6;
           line-height: 16px; }
-        .dual-page .page .rnd-list .rnd-list-item > a .list-content .more {
-          position: absolute;
-          right: 0;
-          bottom: 0;
-          color: #fff;
-          font-size: 13px;
-          font-style: italic;
-          text-decoration: underline; }
-        .dual-page .page .rnd-list .rnd-list-item > a .list-content .detail-content {
+        .dual-page .page .rnd-list .rnd-list-item .list-content .detail-content {
           display: none; }
+      .dual-page .page .rnd-list .rnd-list-item > a .detail-list:after {
+        content: "more";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        color: #fff;
+        font-size: 13px;
+        font-style: italic;
+        text-decoration: underline; }
   .dual-page .page .rnd-list2:first-child {
     padding-top: 252px; }
   .dual-page .page .rnd-list2 {
@@ -6582,33 +6583,34 @@ input, select {
       position: relative;
       height: 164px;
       margin: 50px 0; }
-      .dual-page .page .rnd-list2 .rnd-list-item > a .list-thumb {
+      .dual-page .page .rnd-list2 .rnd-list-item .list-thumb {
         position: absolute;
         width: 164px;
         height: 164px;
         overflow: hidden;
         border-radius: 100%; }
-      .dual-page .page .rnd-list2 .rnd-list-item > a .list-content {
+      .dual-page .page .rnd-list2 .rnd-list-item .list-content {
         margin-left: 200px;
         padding: 5px 0; }
-        .dual-page .page .rnd-list2 .rnd-list-item > a .list-content .title {
+        .dual-page .page .rnd-list2 .rnd-list-item .list-content .title {
           font-size: 17px;
           color: #fff;
           line-height: 36px; }
-        .dual-page .page .rnd-list2 .rnd-list-item > a .list-content .description {
+        .dual-page .page .rnd-list2 .rnd-list-item .list-content .description {
           font-size: 13px;
           color: #b6b6b6;
           line-height: 20px; }
-        .dual-page .page .rnd-list2 .rnd-list-item > a .list-content .more {
-          display: block;
-          margin-top: 8px;
-          text-align: right;
-          color: #fff;
-          font-size: 13px;
-          font-style: italic;
-          text-decoration: underline; }
-        .dual-page .page .rnd-list2 .rnd-list-item > a .list-content .detail-content {
+        .dual-page .page .rnd-list2 .rnd-list-item .list-content .detail-content {
           display: none; }
+      .dual-page .page .rnd-list2 .rnd-list-item > a .detail-list:after {
+        content: "more";
+        display: block;
+        margin-top: 8px;
+        text-align: right;
+        color: #fff;
+        font-size: 13px;
+        font-style: italic;
+        text-decoration: underline; }
   .dual-page .page .press-list:first-child {
     padding-top: 108px; }
   .dual-page .page .press-list {
@@ -6617,33 +6619,92 @@ input, select {
       position: relative;
       height: 144px;
       margin: 0; }
-      .dual-page .page .press-list .press-list-item > a .list-thumb {
+      .dual-page .page .press-list .press-list-item .list-thumb {
         position: absolute;
         width: 94px;
         height: 94px;
         overflow: hidden;
         border-radius: 100%; }
-      .dual-page .page .press-list .press-list-item > a .list-content {
+      .dual-page .page .press-list .press-list-item .list-content {
         margin-left: 126px;
         padding: 5px 0; }
-        .dual-page .page .press-list .press-list-item > a .list-content .title {
+        .dual-page .page .press-list .press-list-item .list-content .title {
           font-size: 17px;
           color: #fff;
           line-height: 36px; }
-        .dual-page .page .press-list .press-list-item > a .list-content .description {
+        .dual-page .page .press-list .press-list-item .list-content .description {
           font-size: 13px;
           color: #b6b6b6;
           line-height: 20px; }
-        .dual-page .page .press-list .press-list-item > a .list-content .more {
-          display: block;
-          margin-top: 8px;
-          text-align: right;
-          color: #fff;
-          font-size: 13px;
-          font-style: italic;
-          text-decoration: underline; }
-        .dual-page .page .press-list .press-list-item > a .list-content .detail-content {
+        .dual-page .page .press-list .press-list-item .list-content .detail-content {
           display: none; }
+      .dual-page .page .press-list .press-list-item > a .detail-list:after {
+        content: "more";
+        display: block;
+        margin-top: 8px;
+        text-align: right;
+        color: #fff;
+        font-size: 13px;
+        font-style: italic;
+        text-decoration: underline; }
+
+.detail-content {
+  padding: 46px 80px; }
+  .detail-content .hierarchy {
+    float: right;
+    height: 16px;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 16px; }
+    .detail-content .hierarchy li {
+      float: left; }
+      .detail-content .hierarchy li a {
+        color: #fff; }
+    .detail-content .hierarchy li:after {
+      content: ">";
+      margin: 0 10px; }
+    .detail-content .hierarchy li:last-child:after {
+      content: "";
+      margin: 0; }
+  .detail-content .category-name {
+    clear: both; }
+    .detail-content .category-name h3 {
+      height: 60px;
+      overflow: hidden;
+      font-size: 34px;
+      line-height: 60px; }
+  .detail-content .category-name:after {
+    clear: both;
+    content: "";
+    display: block;
+    width: 26px;
+    height: 4px;
+    margin: 24px 0;
+    background-color: #fff; }
+  .detail-content .title-bar {
+    position: relative;
+    border-bottom: rgba(255, 255, 255, 0.2) solid 1px;
+    margin-bottom: 50px; }
+    .detail-content .title-bar h2.post-title {
+      height: 52px;
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 52px;
+      color: #ffffff; }
+    .detail-content .title-bar .post-info {
+      position: absolute;
+      top: 0;
+      right: 0; }
+      .detail-content .title-bar .post-info .post-info-author,
+      .detail-content .title-bar .post-info .post-info-date {
+        margin-left: 5px;
+        font-size: 13px;
+        color: #b6b6b6;
+        line-height: 52px; }
+  .detail-content .content-body {
+    border-bottom: rgba(255, 255, 255, 0.2) solid 1px;
+    font-size: 15px;
+    color: #b6b6b6; }
 
 .dual-page:after {
   content: "";
@@ -6700,6 +6761,10 @@ input, select {
         display: block;
         margin: 0;
         padding: 0; }
+
+.contents-empty {
+  padding: 200px 70px;
+  text-align: center; }
 
 #btnMapKo {
   background: url("../imgs/contact/btn_ko.png") no-repeat; }
@@ -6778,6 +6843,29 @@ input, select {
     height: 110px;
     padding: 0 80px;
     text-align: right; }
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.ellipsis-multi {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical; }
+  .ellipsis-multi.duo-line {
+    -webkit-line-clamp: 2; }
+  .ellipsis-multi.triple-line {
+    -webkit-line-clamp: 3; }
+
+.ellipsis.single {
+  display: -webkit-box;
+  max-height: 38px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; }
 
 @media only screen and (min-width: 601px) and (max-width: 1080px) {
   .contents {
