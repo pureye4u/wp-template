@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node-sass ./scss/main.scss ./css/common.css -o",
-    "watch": "node-sass ./scss/main.scss ./css/common.css -o & node-sass ./scss/main.scss ./css/common.css -o -w",
+    "start": "node-sass ./scss/main.scss ./style.css -o",
+    "watch": "node-sass ./scss/main.scss ./style.css -o & node-sass ./scss/main.scss ./style.css -o -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

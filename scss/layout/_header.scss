@@ -25,23 +25,30 @@ nav {
             height: 100%;
 
             >a {
-                color: $gnb-major-color;
+                color: $gnb-minor-color;
                 height: 100%;
-                padding: 0 40px;
+                padding: 0 $gnb-menu-padding;
                 font-size: 19px;
                 font-weight: 400;
 
                 span {
-                    padding: 0 10px;
+                    display: inline-block;
+                    overflow: hidden;
+                    line-height: 500px;
+                    height: 80px;
+                    background-repeat: no-repeat;
+                    background-position: center center;
                 }
             }
 
             &.selected {
 
-                span {
-                    display: inline-block;
-                    border-bottom: solid $gnb-highlight-size $gnb-major-color;
-                    height: 100%;
+                >a {
+                    color: $gnb-major-color;
+
+                    span {
+                        border-bottom: solid $gnb-highlight-size $gnb-major-color;
+                    }
                 }
             }
 
@@ -73,6 +80,42 @@ nav {
                     }
                 }
             }
+        }
+        
+        >li:nth-child(1) >a >span {
+            width: $gnb-menu01-width;
+            background-image: url('imgs/nav/gnb_menu01.png');
+        }
+
+        >li.selected:nth-child(1) >a >span {
+            background-image: url('imgs/nav/gnb_menu01_on.png');
+        }
+
+        >li:nth-child(2) >a >span {
+            width: $gnb-menu02-width;
+            background-image: url('imgs/nav/gnb_menu02.png');
+        }
+
+        >li.selected:nth-child(2) >a >span {
+            background-image: url('imgs/nav/gnb_menu02_on.png');
+        }
+
+        >li:nth-child(3) >a >span {
+            width: $gnb-menu03-width;
+            background-image: url('imgs/nav/gnb_menu03.png');
+        }
+
+        >li.selected:nth-child(3) >a >span {
+            background-image: url('imgs/nav/gnb_menu03_on.png');
+        }
+
+        >li:nth-child(4) >a >span {
+            width: $gnb-menu04-width;
+            background-image: url('imgs/nav/gnb_menu04.png');
+        }
+
+        >li.selected:nth-child(4) >a >span {
+            background-image: url('imgs/nav/gnb_menu04_on.png');
         }
     }
 

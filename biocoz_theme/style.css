@@ -6513,8 +6513,33 @@ input, select {
 .single-page .contents {
   width: 600px; }
 
-.cover {
-  padding: 0 50px; }
+.book-frame {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1200px;
+  height: 932px;
+  margin-left: -600px;
+  padding: 77px 292px 0 288px;
+  background: url("imgs/common/bg_book_cover.png") center center no-repeat; }
+  .book-frame .book-cover {
+    position: relative;
+    width: 620px;
+    height: 791px;
+    overflow: hidden;
+    border-radius: 6px;
+    background-color: #000; }
+  .book-frame .book-cover,
+  .book-frame .book-cover > img {
+    overflow: hidden;
+    border-radius: 6px; }
+  .book-frame .book-cover-light {
+    position: absolute;
+    left: 0;
+    top: 0; }
+
+.dual-page {
+  background: url("imgs/common/bg_book_open.png") center center no-repeat; }
 
 .dual-page .page:last-of-type .rnd-list,
 .dual-page .page:last-of-type .rnd-list2,
@@ -6881,7 +6906,7 @@ html, body {
   min-width: 320px; }
 
 body {
-  background: url("imgs/common/bg_tile.png") center 80px repeat-x; }
+  background: url("imgs/common/bg.jpg") center 80px repeat-x; }
 
 .wrap {
   position: absolute;
@@ -6890,13 +6915,11 @@ body {
   bottom: 0;
   left: 0;
   overflow-y: auto;
-  margin-top: 80px; }
+  margin-top: 80px;
+  background: url("imgs/common/bg_one.jpg") center top no-repeat; }
   .wrap > .scroll-box {
+    position: relative;
     padding: 80px 0 63px; }
-    .wrap > .scroll-box.single-page {
-      background: url("imgs/main/bg.png") top center no-repeat; }
-    .wrap > .scroll-box.dual-page {
-      background: url("imgs/ceomsg/bg.png") top center no-repeat; }
 
 @media only screen and (max-width: 600px) {
   .wrap {
@@ -6928,7 +6951,7 @@ nav {
 
 .gnb {
   position: relative;
-  width: 654px;
+  width: 665px;
   height: 100%;
   margin: 0 auto; }
   .gnb a {
@@ -6939,17 +6962,22 @@ nav {
       position: relative;
       height: 100%; }
       .gnb ul.normal > li > a {
-        color: #34b27c;
+        color: #333333;
         height: 100%;
-        padding: 0 40px;
+        padding: 0 38px;
         font-size: 19px;
         font-weight: 400; }
         .gnb ul.normal > li > a span {
-          padding: 0 10px; }
-      .gnb ul.normal > li.selected span {
-        display: inline-block;
-        border-bottom: solid 6px #34b27c;
-        height: 100%; }
+          display: inline-block;
+          overflow: hidden;
+          line-height: 500px;
+          height: 80px;
+          background-repeat: no-repeat;
+          background-position: center center; }
+      .gnb ul.normal > li.selected > a {
+        color: #34b27c; }
+        .gnb ul.normal > li.selected > a span {
+          border-bottom: solid 6px #34b27c; }
       .gnb ul.normal > li .dropdown-content {
         left: 50%;
         margin-left: -99px;
@@ -6967,6 +6995,26 @@ nav {
             font-size: 14px;
             font-weight: 300;
             letter-spacing: 1px; }
+    .gnb ul.normal > li:nth-child(1) > a > span {
+      width: 105px;
+      background-image: url("imgs/nav/gnb_menu01.png"); }
+    .gnb ul.normal > li.selected:nth-child(1) > a > span {
+      background-image: url("imgs/nav/gnb_menu01_on.png"); }
+    .gnb ul.normal > li:nth-child(2) > a > span {
+      width: 57px;
+      background-image: url("imgs/nav/gnb_menu02.png"); }
+    .gnb ul.normal > li.selected:nth-child(2) > a > span {
+      background-image: url("imgs/nav/gnb_menu02_on.png"); }
+    .gnb ul.normal > li:nth-child(3) > a > span {
+      width: 125px;
+      background-image: url("imgs/nav/gnb_menu03.png"); }
+    .gnb ul.normal > li.selected:nth-child(3) > a > span {
+      background-image: url("imgs/nav/gnb_menu03_on.png"); }
+    .gnb ul.normal > li:nth-child(4) > a > span {
+      width: 74px;
+      background-image: url("imgs/nav/gnb_menu04.png"); }
+    .gnb ul.normal > li.selected:nth-child(4) > a > span {
+      background-image: url("imgs/nav/gnb_menu04_on.png"); }
   .gnb .highlight-bar {
     position: absolute;
     bottom: 0;

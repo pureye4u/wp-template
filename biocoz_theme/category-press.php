@@ -24,8 +24,11 @@
 </head>
 <body <?php body_class(); ?>>
 <?php get_header(); ?>
-    <div class="wrap">
-        <div class="scroll-box dual-page">
+<div class="wrap">
+    <div class="scroll-box dual-page">
+        <img class="floating-object top left" src="<?php bloginfo('template_url'); ?>/imgs/common/bg_obj01_crop.png" />
+        <img class="floating-object right" src="<?php bloginfo('template_url'); ?>/imgs/common/bg_obj02_crop.png" />
+        <div class="bg-book">
             <div class="contents">
                 <div class="page">
                     <div class="title">
@@ -61,7 +64,6 @@ if ( have_posts() ) :
                                 <div class="list-content">
                                     <h3 class="title"><?php the_title(); ?></h3>
                                     <div class="description ellipsis-multi duo-line"><?php the_excerpt(); ?></div>
-                                    <span class="more">more</span>
                                 </div>
                             </a>
                         </li>
@@ -82,6 +84,7 @@ else:
         </div>
 <?php get_footer(); ?>
     </div>
+</div>
 <?php wp_footer(); ?>
 </body>
 <script>

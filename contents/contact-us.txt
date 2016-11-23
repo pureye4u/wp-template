@@ -1,0 +1,40 @@
+<div class="page">
+    <div class="title">
+        <img src="http://52.193.207.25/wp-content/uploads/2016/11/title-1.png" alt="title" width="600" height="191" class="alignnone size-full wp-image-57" />
+    </div>
+    <div class="map-area">
+        <div id="mapContainer" class="map ko">
+            <img id="mapKo" src="http://52.193.207.25/wp-content/uploads/2016/11/map_ko-1.png" alt="map_ko" width="492" height="286" class="alignnone size-full wp-image-150" /><img id="mapSg src="http://52.193.207.25/wp-content/uploads/2016/11/map_sg.png" alt="map_sg" width="492" height="287" class="alignnone size-full wp-image-59" />
+        </div>
+        <div class="tab">
+            <button id="btnMapKo" />
+            <button id="btnMapSg" />
+        </div>
+
+        <script>
+        $(function() {
+            $("#btnMapKo").click(function() {
+                $("#mapContainer").removeClass("sg").addClass("ko");
+            });
+            $("#btnMapSg").click(function() {
+                $("#mapContainer").removeClass("ko").addClass("sg");
+            });
+        })
+        </script>
+    </div>
+    <div class="address">
+        <img src="http://52.193.207.25/wp-content/uploads/2016/11/txt_addr.png" alt="txt_addr" width="600" height="215" class="alignnone size-full wp-image-60" />
+    </div>
+</div>
+<div class="page">
+    <div class="contact-form-container">
+        <h3 class="title">문의하기</h3>
+        <div class="input-box">
+            <input type="text" placeholder="제목" />
+            <input type="text" placeholder="이름" />
+            <input type="text" placeholder="이메일" />
+            <textarea placeholder="내용"></textarea>
+        </div>
+        <a class="waves-effect waves-light btn">문의하기</a>
+    </div>
+</div>

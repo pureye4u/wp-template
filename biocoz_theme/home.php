@@ -26,12 +26,19 @@
     <?php get_header(); ?>
     <div class="wrap">
         <div class="scroll-box single-page">
-            <div class="contents">
-                <div class="title">
-                    <img src="<?php bloginfo('template_url'); ?>/imgs/main/txt.png" />
+            <img class="floating-object top left" src="<?php bloginfo('template_url'); ?>/imgs/common/bg_obj01_crop.png" />
+            <img class="floating-object right" src="<?php bloginfo('template_url'); ?>/imgs/common/bg_obj02_crop.png" />
+            <div class="book-frame">
+                <div class="book-cover">
+                    <img src="<?php bloginfo('template_url'); ?>/imgs/main/cover01.png" />
+                    <img class="book-cover-light" src="<?php bloginfo('template_url'); ?>/imgs/common/bg_book_cover_light.png" />
                 </div>
-                <div class="cover">
-                    <img src="<?php bloginfo('template_url'); ?>/imgs/main/img_01.png" />
+            </div>
+            <div class="bg-book">
+                <div class="contents">
+                    <div class="title">
+                        <img src="<?php bloginfo('template_url'); ?>/imgs/main/txt.png" />
+                    </div>
                 </div>
             </div>
         </div>

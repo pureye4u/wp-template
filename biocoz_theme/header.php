@@ -4,8 +4,8 @@
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <div class="gnb">
             <ul id="menu" class="normal center hide-on-med-and-down">
-                <li><a class="dropdown-button" href="#" data-activates="dropdown1"><span>BUSINESS</span></a></li>
-                <li><a class="dropdown-button" href="#" data-activates="dropdown2"><span>R&amp;D</span></a></li>
+                <li><a class="dropdown-button" href="/ceo-message/" data-activates="dropdown1"><span>BUSINESS</span></a></li>
+                <li><a class="dropdown-button" href="/global-rd-network/" data-activates="dropdown2"><span>R&amp;D</span></a></li>
                 <li><a href="/contact-us/"><span>CONTACT US</span></a></li>
                 <li><a href="/archives/category/press/"><span>PRESS</span></a></li>
             </ul>
@@ -42,17 +42,22 @@ var paths = [
         'research-material-list-page-1',
         'research-material-list-page-2',
         'research-material-list-page-3',
-        'dr-anthony-j-sinskey',
-        'dr-martin-c-mihm-jr',
-        'glen-gong-phd',
-        'kevin-l-ohashi-phd',
-        '김찬화-박사'
+        'archives/93',
+        'archives/97',
+        'archives/117',
+        'archives/124',
+        'archives/126',
+        'archives/128',
+        'archives/130',
+        'archives/132',
+        'archives/134',
     ],
     ['contact-us'],
-    ['press']
+    ['archives/category/press']
 ];
 $(function() {
-    var path = location.pathname.replace(/^\/([^\/]*)\/$/, '$1');
+    var path = location.pathname.replace(/^\/|\/$/g, '');
+    console.log('Scan menu selected', paths, path);
     var i;
     var j;
     var l = paths.length;

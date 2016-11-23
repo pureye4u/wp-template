@@ -1,4 +1,15 @@
-<!doctype html>
+<?php
+if ( $query_string == "pagename=send_mail" ) {
+    $title = $_POST["title"];
+    $username = $_POST["username"];
+    $email = $_POST["email"];
+    $contents = $_POST["contents"];
+    $data = 'from: ' . $email . ', username: ' . $username . ', contents: ' . $contents;
+    wp_mail('pureye4u@gmail.com', $title, $data);
+    echo json_encode( array('sendmail' => array( 'title' => $title, 'data' => $data) ) );
+    exit();
+}
+?><!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo('charset'); ?>">

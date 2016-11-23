@@ -5,8 +5,14 @@ $header-center-limit-width: 1280px;
 $header-center-limit-down: "only screen and (max-width : #{$header-center-limit-width})" !default;
 
 // GNB
-$gnb-width: 654px;
+$gnb-menu01-width: 105px;
+$gnb-menu02-width: 57px;
+$gnb-menu03-width: 125px;
+$gnb-menu04-width: 74px;
+$gnb-menu-padding: 38px;
+$gnb-width: $gnb-menu01-width + $gnb-menu02-width + $gnb-menu03-width + $gnb-menu04-width + 4 * 2 * $gnb-menu-padding;
 // $gnb-list-width: 182px;
 $gnb-list-dropdown-width: 198px;
 $gnb-highlight-size: 6px;
 $gnb-major-color: #34b27c;
+$gnb-minor-color: #333333;

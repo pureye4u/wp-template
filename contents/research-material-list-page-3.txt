@@ -1,37 +1,32 @@
-<div class="scroll-box dual-page">
-    <div class="contents">
-        <div class="page">
-            <div class="title">
-                <img src="http://52.193.207.25/wp-content/uploads/2016/11/list_title.png" alt="list_title" width="600" height="244" class="alignnone size-full wp-image-66" />
-            </div>
-            <ul class="rnd-list2">
-                <li class="rnd-list-item">
-                    <a href="/archives/132">
-                        <div class="list-thumb">
-                            <img src="http://52.193.207.25/wp-content/uploads/2016/11/thumb_01.png" alt="thumb_01" width="164" height="164" class="alignnone size-full wp-image-67" />
-                        </div>
-                        <div class="list-content">
-                            <h3 class="title">세포 재생 및 회복 능력</h3>
-                            <div class="description">세포재생 및 회복 능력 검증 결과, SPM—β는 72시간 내 E**1 대비 112%의 fibroblast 증식 능력을 보입니다.</div>
-                            <span class="more">more</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="rnd-list-item">
-                    <a href="134">
-                        <div class="list-thumb">
-                            <img src="http://52.193.207.25/wp-content/uploads/2016/11/thumb_02.png" alt="thumb_02" width="164" height="164" class="alignnone size-full wp-image-68" />
-                        </div>
-                        <div class="list-content">
-                            <h3 class="title">콜라겐 생성능력</h3>
-                            <div class="description">콜라겐 생성능력 검증 결과, SPM-β는 E** 대비 115%의 콜라겐 생성능력을 보입니다.</div>
-                            <span class="more">more</span>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <a class="btn-page-prev" href="/research-material-list-page-2/"><img src="/wp-content/themes/biocoz_theme/imgs/common/btn_page_prev.png" /></a>
-        <a class="btn-page-next disabled" href="#"><img src="/wp-content/themes/biocoz_theme/imgs/common/btn_page_next.png" /></a>
+
+<div class="page">
+    <div class="title">
+        <img src="http://52.193.207.25/wp-content/uploads/2016/11/list_title.png" alt="list_title" width="600" height="244" class="alignnone size-full wp-image-66" />
     </div>
+    <ul class="rnd-list2">
+        <li class="rnd-list-item">
+            <a href="/archives/132">
+                <div class="list-thumb">
+                    <img src="http://52.193.207.25/wp-content/uploads/2016/11/thumb_01.png" alt="thumb_01" width="164" height="164" class="alignnone size-full wp-image-67" />
+                </div>
+                <div class="list-content">
+                    <h3 class="title">세포 재생 및 회복 능력</h3>
+                    <div class="description">세포재생 및 회복 능력 검증 결과, SPM—β는 72시간 내 E**1 대비 112%의 fibroblast 증식 능력을 보입니다.</div>
+                </div>
+            </a>
+        </li>
+        <li class="rnd-list-item">
+            <a href="/archives/134">
+                <div class="list-thumb">
+                    <img src="http://52.193.207.25/wp-content/uploads/2016/11/thumb_02.png" alt="thumb_02" width="164" height="164" class="alignnone size-full wp-image-68" />
+                </div>
+                <div class="list-content">
+                    <h3 class="title">콜라겐 생성능력</h3>
+                    <div class="description">콜라겐 생성능력 검증 결과, SPM-β는 E** 대비 115%의 콜라겐 생성능력을 보입니다.</div>
+                </div>
+            </a>
+        </li>
+    </ul>
 </div>
+<a class="btn-page-prev" href="/research-material-list-page-2/"><img src="/wp-content/themes/biocoz_theme/imgs/common/btn_page_prev.png" /></a>
+<a class="btn-page-next disabled" href="#"><img src="/wp-content/themes/biocoz_theme/imgs/common/btn_page_next.png" /></a>

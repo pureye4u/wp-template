@@ -23,13 +23,16 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-    <?php get_header(); ?>
-    <div class="wrap">
-    <div class="scroll-box">
-        <div class="contents">
-            <div class="dim">
-                <div class="detail">
-                    <div class="detail-content">
+<?php get_header(); ?>
+<div class="wrap">
+    <div class="scroll-box dual-page">
+        <img class="floating-object top left" src="<?php bloginfo('template_url'); ?>/imgs/common/bg_obj01_crop.png" />
+        <img class="floating-object right" src="<?php bloginfo('template_url'); ?>/imgs/common/bg_obj02_crop.png" />
+        <div class="bg-book">
+            <div class="contents">
+                <div class="dim">
+                    <div class="detail">
+                        <div class="detail-content">
 <?php if ( have_posts() ) : the_post(); ?>
                             <ul class="hierarchy">
 <?php
@@ -45,7 +48,18 @@ if( in_category( 'global-rd-network' ) ) {
     array_push( $hierarchy, array("title" => "R&D") );
     array_push( $hierarchy, array("link" => "/research-material-list-page-1", "title" => "RESEARCH MATERIAL") );
     $useTitleBar = true;
-    $parentLink = $categories[0]->slug;
+    $postId = get_the_ID();
+    $parentLinks = array(
+        "124" => "/research-material-list-page-2",
+        "126" => "/research-material-list-page-2",
+        "128" => "/research-material-list-page-2",
+        "130" => "/research-material-list-page-2",
+        "132" => "/research-material-list-page-3",
+        "134" => "/research-material-list-page-3"
+    );
+    if( array_key_exists( $postId, $parentLinks ) ) {
+        $parentLink = $parentLinks[$postId];
+    }
 } elseif (in_category( 'press' ) ) {
     array_push( $hierarchy, array("link" => "/archives/category/press", "title" => "PRESS") );
     $useTitleBar = true;
@@ -88,10 +102,11 @@ foreach($hierarchy as $node):
                 </div>
             </div>
         </div>
-
-        <?php get_footer(); ?>
     </div>
-    <?php wp_footer(); ?>
+
+    <?php get_footer(); ?>
+</div>
+<?php wp_footer(); ?>
 </body>
 <script>
 $(function() {

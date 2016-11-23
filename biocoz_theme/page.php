@@ -25,11 +25,19 @@
 <body <?php body_class(); ?>>
     <?php get_header(); ?>
     <div class="wrap">
-        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <?php the_content(); ?>
-        <?php endwhile; else: ?>
-        <h2>Empty!</h2>
-        <?php endif; ?>
+        <div class="scroll-box dual-page">
+            <img class="floating-object top left" src="<?php bloginfo('template_url'); ?>/imgs/common/bg_obj01_crop.png" />
+            <img class="floating-object right" src="<?php bloginfo('template_url'); ?>/imgs/common/bg_obj02_crop.png" />
+            <div class="bg-book">
+                <div class="contents">
+                    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                    <?php the_content(); ?>
+                    <?php endwhile; else: ?>
+                    <h2>Empty!</h2>
+                    <?php endif; ?>
+                    </div>
+                </div>
+            </div>
         <?php get_footer(); ?>
     </div>
     <?php wp_footer(); ?>
