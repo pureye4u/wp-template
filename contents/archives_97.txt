@@ -1,0 +1,46 @@
+<dl class="thumb-title-description">
+    <dt><img src="http://52.193.207.25/wp-content/uploads/2016/11/profile_01.png" alt="profile_01" width="124" height="124" class="alignnone size-full wp-image-35" /></dt>
+    <dd>Dr. Martin C. Mihm. Jr.</dd>
+    <dd>의료 자문 위원장</dd>
+</dl>
+<dl class="define-list">
+    <dt>Detail</dt>
+    <dd>WHO 희귀 종양 학회 공동설립자 및 외부 코디네이터 (1998-2003)</dd>
+    <dd>Massachusetts General Hospital 착색피부병변 클리닉 공동이사</dd>
+    <dd>Conrex Pharmaceuticals Corp. 과학위원회 이사</dd>
+    <dd>Dana-Farber Brigham and Women’s Cancer Center 연구 부책임자 (2010-현재)</dd>
+    <dd>American Dermtological Association 심의 위원회 (2001-2003)</dd>
+    <dd>Melanoma Research Alliance 심의 위원회 (2007)</dd>
+    <dd>American Dermtological Association 검토 위원회 (2007)</dd>
+    <dd>혈관성 기형 협회 이사 (1998)</dd>
+    <dd>Leader’s Society Dermatology 설립 (1998)</dd>
+    <dd>American Society of Dermatopathology 설립자 상 수상 (1998)</dd>
+    <dd>Society of Melanoma Research Special Achievement 임상 병리학 부문 상 (2006)</dd>
+    <dd>Best Doctor in America Award 수상 (2008)</dd>
+    <dd>Martin C. Mihm Jr. 장학금 도입 (2013)</dd>
+    <dd>Vasculat Birthmark 협회에서 올해의 Research Director 선정 (2014)</dd>
+</dl>
+<dl class="define-list">
+    <dt>Publications</dt>
+    <dd>Clark WH Jr, From L, Bernardino E, Mihm MC Jr. The histogenesis and biologic behavior<br />
+    of primary human malignant melanoma of the skin. Cancer Res. 1969; 29:705-726.</dd>
+    <dd>Sober AJ, Solomon L, Fitzpatrick TB, Mihm MC Jr, Clark WH Jr. Diagnosis and treatment of<br />
+    malignant melanoma: Clinical simulations. American Academy of Dermatology, Home Study Group,<br />
+    Prototype. 1975:5</dd>
+    <dd>Murphy GF, Lopansri S, Mihm MC Jr. Capsule Dermatopathology: Clinicopathologic types of<br />
+    malignant melanoma - relevance to biologic behavior and diagnostic surgical approach. J Dermatol Surg<br />
+    and Oncol. 1985; 11(#7):674-682.</dd>
+    <dd>Kibbi A-G, Mihm MC Jr, Sober AJ, Fitzpatrick TB. Diagnosis and management of malignant<br />
+    melanoma. Comprehensive Therapy. 1986; 12(#5):23-31.</dd>
+    <dd>이 외 516편의 논문 발간</dd>
+</dl>
+<dl class="define-list">
+    <dt>Books</dt>
+    <dd>Hood AF, Kwan TH, Burnes DC, Mihm MC Jr. 1984.<br />
+    『 Primer of Dermatopathology 』</dd>
+    <dd>Mihm MC Jr, Murphy GF, Kaufman N, eds. 1988.<br />
+    『 Pathobiology and Recognition of Malignant Melanoma 』</dd>
+    <dd>Zembowicz, A, Flotte, TJ, Mihm MC Jr., Murphy, GF, Tahan, SR. 2005.<br />
+    『 Cases in Dermatopathology: Adnexal Neoplasms. 』</dd>
+    <dd>이 외 21편의 서적 출판</dd>
+</dl>

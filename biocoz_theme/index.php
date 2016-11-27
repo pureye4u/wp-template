@@ -1,4 +1,5 @@
 <?php
+/*
 if ( $query_string == "pagename=send_mail" ) {
     $title = $_POST["title"];
     $username = $_POST["username"];
@@ -8,7 +9,7 @@ if ( $query_string == "pagename=send_mail" ) {
     wp_mail('pureye4u@gmail.com', $title, $data);
     echo json_encode( array('sendmail' => array( 'title' => $title, 'data' => $data) ) );
     exit();
-}
+}*/
 ?><!doctype html>
 <html <?php language_attributes(); ?>>
 <head>

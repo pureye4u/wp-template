@@ -1,0 +1,45 @@
+<dl class="thumb-title-description">
+    <dt><img src="http://52.193.207.25/wp-content/uploads/2016/11/profile_01.png" alt="profile_01" width="124" height="124" class="alignnone size-full wp-image-35" /></dt>
+    <dd>Dr. Anthony J. Sinskey</dd>
+    <dd>과학 자문 위원장</dd>
+</dl>
+<dl class="define-list">
+    <dt>Detail</dt>
+    <dd>Metabolic Engineering Ⅲ Conference 의장 (2000)</dd>
+    <dd>The American Association for the Advancement of Science 회원 (1996)</dd>
+    <dd>The Molecular Medicine Society 회원 (1996)</dd>
+    <dd>The American Institute for Medical and Biological Engineering 회원 (1996)</dd>
+    <dd>NSERC Strategic Grant Selection Panel on Biotechnology (1995-1998)</dd>
+    <dd>Natural Pharmaceuticals, Inc. 회장</dd>
+    <dd>Merrimack Pharmaceuticals, Inc. 이사 (1995-2015)</dd>
+    <dd>Apex Bioventures Acquisitions, Corp. 이사 (2006)</dd>
+    <dd>Cell Culture Engineering Steering 위원회 (2002)</dd>
+    <dd>말레이시아-MIT Biotechnology Partnership Program 공동이사</dd>
+    <dd>National Science Foundation (NSF) Biotechnology 검토위원 (1986-)</dd>
+    <dd>Northeastern University, Biotechnology Engineering 센터 고문 위원 (1990-)</dd>
+    <dd>응용 미생물학 및 바이오테크놀로지 저널 편집위원 (2001-)</dd>
+    <dd>응용 생화학 및 바이오테크놀로지 저널 편집위원 (1986-)</dd>
+</dl>
+<dl class="define-list">
+    <dt>Publications</dt>
+    <dd>Brigham, C.J. and A.J. Sinskey.  2010.  Optimization of growth media components<br />
+        for polyhydroxyalkanoate (PHA) production from organic acids by Ralstonia eutropha.<br />
+        Appl. Microbiol. Biotechnol.  E-pub ahead of print.</dd>
+    <dd>Kurosawa, K., P. Boccazzi, N. de Almeida, and A.J. Sinskey.  2010.  High-cell-density<br />
+        batch fermentation of Rhodococcus opacus PD630 using a high glucose concentration<br />
+        for triacylglycerol production.  J. Biotechnol. 147:212-218.</dd>
+    <dd>Choi, D.S., M.H.C. Andrade, L.B. Willis, C. Cho, J. Schoenheit, P. Boccazzi, R. Sambanthamurthi, A.J.<br />
+        Sinskey, and C.K. Rha.  2008.  Effect of Agitation and Aeration on Yield Optimization of Oil Palm<br />
+        Suspension Culture. J. Oil Palm Research Special Issue 1:23-34.</dd>
+    <dd>이 외 320편의 논문 발간</dd>
+</dl>
+<dl class="define-list">
+    <dt>Books</dt>
+    <dd>Colwell, R.R., E.R. Pariser and A.J. Sinskey (Eds.). 1985.<br />
+        『 Biotechnology of Marine Polysaccharides. Hemisphere Publishing 』</dd>
+    <dd>Colwell, R.R., E.R. Pariser and A.J. Sinskey (Eds.). 1984.<br />
+        『 Biotechnology in the Marine Sciences. Proceedings of the First Annual MIT Sea Grant Lecture<br />
+        and Seminar  McGraw Hill 』</dd>
+    <dd>Nickerson, J.T.R. and A.J. Sinskey.  1972.<br />
+        『 Microbiology of Foods and Food Processing.  American Elsevier Publishing Co. 』</dd>
+</dl>

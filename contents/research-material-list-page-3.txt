@@ -1,4 +1,3 @@
-
 <div class="page">
     <div class="title">
         <img src="http://52.193.207.25/wp-content/uploads/2016/11/list_title.png" alt="list_title" width="600" height="244" class="alignnone size-full wp-image-66" />
@@ -7,22 +6,23 @@
         <li class="rnd-list-item">
             <a href="/archives/132">
                 <div class="list-thumb">
-                    <img src="http://52.193.207.25/wp-content/uploads/2016/11/thumb_01.png" alt="thumb_01" width="164" height="164" class="alignnone size-full wp-image-67" />
+                    <img src="http://52.193.207.25/wp-content/uploads/2016/11/thumb_05.png" alt="thumb_05" width="164" height="164" class="alignnone size-full wp-image-178" />
                 </div>
                 <div class="list-content">
-                    <h3 class="title">세포 재생 및 회복 능력</h3>
-                    <div class="description">세포재생 및 회복 능력 검증 결과, SPM—β는 72시간 내 E**1 대비 112%의 fibroblast 증식 능력을 보입니다.</div>
+                    <h3 class="title">가려움 및 염증완화 능력</h3>
+                    <div class="description ellipsis-multi quintuple-line">가려움 및 염증완화 능력 검증 결과, SPM-α는 Histamine과 β-hexosaminidase를 농도에 따라 각각 최대 29%와 32%까지 분비를 감소시켜 가려움 및 붉은기(염증반응)를 완화하는데 도움이 됩니다.</div>
                 </div>
             </a>
         </li>
         <li class="rnd-list-item">
             <a href="/archives/134">
                 <div class="list-thumb">
-                    <img src="http://52.193.207.25/wp-content/uploads/2016/11/thumb_02.png" alt="thumb_02" width="164" height="164" class="alignnone size-full wp-image-68" />
+                    <img src="http://52.193.207.25/wp-content/uploads/2016/11/thumb_06.png" alt="thumb_06" width="164" height="164" class="alignnone size-full wp-image-179" />
                 </div>
                 <div class="list-content">
-                    <h3 class="title">콜라겐 생성능력</h3>
-                    <div class="description">콜라겐 생성능력 검증 결과, SPM-β는 E** 대비 115%의 콜라겐 생성능력을 보입니다.</div>
+                    <h3 class="title">UVA로 인한 피부손상 회복 능력</h3>
+                    <div class="description ellipsis-multi quintuple-line">UVA로 인한 피부손상 회복 능력 검증 결과, SPM-α는 화장품에 가장 많이 사용되는 자극완화제인 마**추출물과 비교하여 손상된 피부세포조직 회복에 탁월한 효능을 보입니다.<br />
+                    이것은 SPM-α가 눈에 보이지 않는 미세상처까지 케어함으로써 더욱 건강한 피부로 변화하는 데</div>
                 </div>
             </a>
         </li>

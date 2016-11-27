@@ -6505,7 +6505,7 @@ input, select {
 
 .contents {
   position: relative;
-  max-width: 1200px;
+  width: 1200px;
   height: 772px;
   margin: 0 auto;
   color: #fff; }
@@ -6538,8 +6538,112 @@ input, select {
     left: 0;
     top: 0; }
 
-.dual-page {
-  background: url("imgs/common/bg_book_open.png") center center no-repeat; }
+.floating-object {
+  position: absolute;
+  animation-duration: 2.5s; }
+
+@keyframes init {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes init-top {
+  from {
+    top: -100px; }
+  to {
+    top: 0; } }
+
+@keyframes init-top-right {
+  from {
+    top: -100px;
+    right: -100px; }
+  to {
+    top: 0;
+    right: 0; } }
+
+@keyframes init-right {
+  from {
+    right: -100px; }
+  to {
+    right: 0; } }
+
+@keyframes init-bottom-right {
+  from {
+    bottom: -100px;
+    right: -100px; }
+  to {
+    bottom: 0;
+    right: 0; } }
+
+@keyframes init-bottom {
+  from {
+    bottom: -100px; }
+  to {
+    bottom: 0; } }
+
+@keyframes init-bottom-left {
+  from {
+    bottom: -100px;
+    left: -100px; }
+  to {
+    bottom: 0;
+    left: 0; } }
+
+@keyframes init-left {
+  from {
+    left: -100px; }
+  to {
+    left: 0; } }
+
+@keyframes init-top-left {
+  from {
+    top: -100px;
+    left: -100px; }
+  to {
+    top: 0;
+    left: 0; } }
+  .floating-object.top {
+    top: 0;
+    animation-name: init init-top; }
+  .floating-object.top.right {
+    top: 0;
+    right: 0;
+    animation-name: init, init-top-right; }
+  .floating-object.right {
+    top: 0;
+    right: 0;
+    animation-name: init, init-right; }
+  .floating-object.bottom.right {
+    bottom: 0;
+    right: 0;
+    animation-name: init, init-bottom-right; }
+  .floating-object.bottom {
+    bottom: 0;
+    animation-name: init, init-bottom; }
+  .floating-object.bottom.left {
+    bottom: 0;
+    left: 0;
+    animation-name: init, init-bottom-left; }
+  .floating-object.left {
+    top: 0;
+    left: 0;
+    animation-name: init, init-left; }
+  .floating-object.top.left {
+    top: 0;
+    left: 0;
+    animation-name: init, init-top-left; }
+
+.floating-object:nth-of-type(2) {
+  animation-duration: 5s; }
+
+.bg-book {
+  position: relative;
+  min-height: 772px;
+  padding: 80px 0 63px; }
+
+.dual-page .bg-book {
+  background: url("imgs/common/bg_book_open.png") center top no-repeat; }
 
 .dual-page .page:last-of-type .rnd-list,
 .dual-page .page:last-of-type .rnd-list2,
@@ -6627,7 +6731,7 @@ input, select {
           line-height: 20px; }
         .dual-page .page .rnd-list2 .rnd-list-item .list-content .detail-content {
           display: none; }
-      .dual-page .page .rnd-list2 .rnd-list-item > a .detail-list:after {
+      .dual-page .page .rnd-list2 .rnd-list-item > a .description:after {
         content: "more";
         display: block;
         margin-top: 8px;
@@ -6663,7 +6767,7 @@ input, select {
           line-height: 20px; }
         .dual-page .page .press-list .press-list-item .list-content .detail-content {
           display: none; }
-      .dual-page .page .press-list .press-list-item > a .detail-list:after {
+      .dual-page .page .press-list .press-list-item > a .description:after {
         content: "more";
         display: block;
         margin-top: 8px;
@@ -6869,21 +6973,28 @@ input, select {
     padding: 0 80px;
     text-align: right; }
 
-.ellipsis {
+.ellipsis,
+.ellipsis > p {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap; }
 
-.ellipsis-multi {
+.ellipsis-multi,
+.ellipsis-multi > p {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical; }
-  .ellipsis-multi.duo-line {
-    -webkit-line-clamp: 2; }
-  .ellipsis-multi.triple-line {
-    -webkit-line-clamp: 3; }
 
-.ellipsis.single {
+.duo-line,
+.duo-line > p {
+  -webkit-line-clamp: 2; }
+
+.triple-line,
+.triple-line > p {
+  -webkit-line-clamp: 3; }
+
+.ellipsis.single,
+.ellipsis.single > p {
   display: -webkit-box;
   max-height: 38px;
   overflow: hidden;
@@ -6919,7 +7030,7 @@ body {
   background: url("imgs/common/bg_one.jpg") center top no-repeat; }
   .wrap > .scroll-box {
     position: relative;
-    padding: 80px 0 63px; }
+    overflow: hidden; }
 
 @media only screen and (max-width: 600px) {
   .wrap {

@@ -1,12 +1,16 @@
 .contents {
     position: relative;
     width: $content-width;
-    height: 772px;
+    height: 932px;
     margin: 0 auto;
     // margin-top: 80px;
     // background-color: #000;
     color: #333;
     // font-size: 50px;
+}
+
+.bg-book > .contents {
+    height: 772px;
 }
 
 .single-page .contents {
@@ -20,7 +24,7 @@
     width: 1200px;
     height: 932px;
     margin-left: -600px;
-    padding: 77px 292px 0 288px;
+    padding: 77px 294px 0 286px;
     background: url('imgs/common/bg_book_cover.png') center center no-repeat;
 
     .book-cover {
@@ -146,7 +150,7 @@
 
 .bg-book {
     position: relative;
-    min-height: 772px;
+    min-height: 932px;
     padding: 80px 0 63px;
 }
 
@@ -154,10 +158,15 @@
     background: url('imgs/common/bg_book_open.png') center top no-repeat;
 }
 
-.dual-page .page:last-of-type .rnd-list,
-.dual-page .page:last-of-type .rnd-list2,
-.dual-page .page:last-of-type .press-list {
+.dual-page .page .rnd-list,
+.dual-page .page .rnd-list2,
+.dual-page .page .press-list {
     padding: 0 70px 0 38px;
+}
+.dual-page .page:first-of-type .rnd-list,
+.dual-page .page:first-of-type .rnd-list2,
+.dual-page .page:first-of-type .press-list {
+    padding: 0 38px 0 70px;
 }
 
 .dual-page .page {
@@ -169,7 +178,6 @@
     }
 
     .rnd-list {
-        padding: 0 38px 0 70px;
 
         .rnd-list-item {
             position: relative;
@@ -245,7 +253,6 @@
 
     .rnd-list2 {
         margin-top: -40px;
-        padding: 0 38px 0 70px;
 
         .rnd-list-item {
             position: relative;
@@ -301,7 +308,6 @@
     }
 
     .press-list {
-        padding: 0 38px 0 70px;
 
         .press-list-item {
             position: relative;
@@ -408,14 +414,13 @@
         position: relative;
         // border-bottom: rgba(255, 255, 255, 0.2) solid 1px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-        margin-bottom: 50px;
 
         h2.post-title {
             height: 52px;
             font-size: 22px;
             font-weight: bold;
             line-height: 52px;
-            color: #ffffff;
+            color: #444;
         }
 
         .post-info {
@@ -427,7 +432,7 @@
             .post-info-date {
                 margin-left: 5px;
                 font-size: 13px;
-                color: #b6b6b6;
+                color: #444;
                 line-height: 52px;
             }
         }
@@ -436,7 +441,12 @@
     .content-body {
         border-bottom: 1px solid rgba(0, 0, 0, 0.2);
         font-size: 15px;
-        color: #b6b6b6;
+        color: #666;
+        line-height: 20px;
+
+        > p {
+            margin: 50px 0;
+        }
     }
 }
 
@@ -580,6 +590,7 @@
 
 .dim {
     position: fixed;
+    z-index: 10;
     left: 0;
     top: 0;
     width: 100%;
@@ -630,7 +641,7 @@
     position: relative;
     width: 1060px;
     margin: 0 auto;
-    background: url('imgs/common/bg_detail_tile.png');
+    background: #ceddce url('imgs/common/bg_detail_tile.png');
     box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.55);
     border: 6px solid #fff;
 
@@ -649,7 +660,8 @@
 
 $content-dl-title-width: 125px;
 $content-dl-title-height: 125px;
-$content-dl-md-title-description-padding: 30px;
+$content-dl-md-thumb-title-description-thumb-size: 124px;
+$content-dl-md-thumb-title-description-padding: 30px;
 $content-dl-md-define-list-margin: 50px;
 $content-dl-spacing: 30px;
 
@@ -672,13 +684,15 @@ $content-dl-spacing: 30px;
 
     //module thumbnail with title and description
     dl.thumb-title-description {
-        height: $content-dl-title-height + $content-dl-md-title-description-padding;
-        padding-top: $content-dl-md-title-description-padding;
-        padding-bottom: $content-dl-md-title-description-padding;
+        height: $content-dl-title-height + $content-dl-md-thumb-title-description-padding;
+        padding-top: $content-dl-md-thumb-title-description-padding;
+        padding-bottom: $content-dl-md-thumb-title-description-padding;
         border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 
         dt {
             // image
+            width: $content-dl-md-thumb-title-description-thumb-size;
+            height: $content-dl-md-thumb-title-description-thumb-size;
             border-radius: 100%;
             overflow: hidden;
         }
@@ -752,14 +766,24 @@ $content-dl-spacing: 30px;
     -webkit-box-orient: vertical;
 }
 
-.duo-line,
-.duo-line > p {
+.double-line,
+.double-line > p {
     -webkit-line-clamp: 2;
 }
 
 .triple-line,
 .triple-line > p {
     -webkit-line-clamp: 3;
+}
+
+.quadruple-line,
+.quadruple-line > p {
+    -webkit-line-clamp: 4;
+}
+
+.quintuple-line,
+.quintuple-line > p {
+    -webkit-line-clamp: 5;
 }
 
 .ellipsis.single,

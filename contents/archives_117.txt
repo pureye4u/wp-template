@@ -1,0 +1,41 @@
+<dl class="thumb-title-description">
+    <dt><img src="http://52.193.207.25/wp-content/uploads/2016/11/profile_03.png" alt="profile_03" width="124" height="124" class="alignnone size-full wp-image-37" /></dt>
+    <dd>김찬화 박사</dd>
+    <dd>최고 연구 책임자 (CRO)</dd>
+</dl>
+<dl class="define-list">
+    <dt>Detail</dt>
+    <dd>고려대학교 생명공학연구소 소장 (2005-)</dd>
+    <dd>한국생명안전협회 창립 (2009)</dd>
+    <dd>고려대학교 우수연구자상 수상 (2005)</dd>
+    <dd>고려대학교 SCI 최다논문상 수상 (2003)</dd>
+    <dd>생물안전관리 개인부분 보건복지부 장관상 수상 (2013)</dd>
+    <dd>산업자원부 전략물자기술자문단 위원 (2004-2006)</dd>
+    <dd>산업자원부 차세대 성장동력산업 바이오신약/장기 분야 기획단 위원 (2003)</dd>
+    <dd>산업자원부 산업기술개발 및 기술기반조성사업 평가위원 (2001)</dd>
+    <dd>식품의약품안전청 중앙약사심의위원회 소분과위원 (2002-2004)</dd>
+    <dd>과학기술부 국가기술지도 비전위원회 기술팀 팀장 (2003)</dd>
+    <dd>고려대학교 생명공학원 연구부장 (1998-2000)</dd>
+    <dd>ATC Diagnostics Inc. 책임연구원 (1993-1995)</dd>
+    <dd>Xgen Corp. 이사 (1993-1995)</dd>
+    <dd>3M Co. 수석연구원 (1989-1992)</dd>
+    <dd>Genzyme Corp. 기술자문관 (1986-1989)</dd>
+</dl>
+<dl class="define-list">
+    <dt>Publications</dt>
+    <dd>Kim HJ, Jung J, Park JH, Kim JH, Ko KN, Kim CW. Extremely low-frequency electromagntic fields<br />
+    induce neural differentiation in bone marrow derived mesechymal stem cells. Experimental Biology and<br />
+    Medicine 238(8):923-931 (Aug 2013) .</dd>
+    <dd>Park JE, Seo YK, Yoon HH, Kim CW, Park JK, Seon S. Electromagnetic fields induce neural<br />
+    differentiation of human bone marrow derived mesenchymal stem cells via ROS mediated EGFR<br />
+    activation. Neurochemistry International 62(4):418-424 (Mar 2013). 0197-0186.</dd>
+    <dd>Kim HJ, Ji BR, Kim JS, Lee HN, Ha DH, Kim CW. Proteomic analysis of proteins associated with<br />
+    cellular senescence by calorie restriction in mesenchymal stem cells. In vitro Cellular & Developmental<br />
+    Biology-Animal 48(3):186-195 (2012)</dd>
+    <dd>이 외 159편의 논문 발간</dd>
+</dl>
+<dl class="define-list">
+    <dt>Books</dt>
+    <dd>Kim CW. 2001.<br />
+   『 세포치료제 및 이종이식 관련 생물의약품의 관리. 평가 지침 제정에 관한 연구 』</dd>
+</dl>
