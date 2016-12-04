@@ -17,6 +17,7 @@
 <title><?php bloginfo('name'); ?> <?php wp_title('|'); ?></title>
 <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cantata+One" rel="stylesheet">
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 <script src="<?php bloginfo('template_url'); ?>/js/jquery-3.1.1.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/materialize.min.js"></script>
@@ -24,13 +25,13 @@
 </head>
 <body <?php body_class(); ?>>
     <?php get_header(); ?>
-    <div class="wrap">
+    <div class="wrap home">
         <div class="scroll-box single-page">
-            <img class="floating-object top left" src="<?php bloginfo('template_url'); ?>/imgs/common/bg_obj01_crop.png" />
+            <img class="floating-object top-left" src="<?php bloginfo('template_url'); ?>/imgs/common/bg_obj01_crop.png" />
             <img class="floating-object right" src="<?php bloginfo('template_url'); ?>/imgs/common/bg_obj02_crop.png" />
             <div class="book-frame">
                 <div class="book-cover">
-                    <img src="<?php bloginfo('template_url'); ?>/imgs/main/cover01.png" />
+                    <img src="<?php bloginfo('template_url'); ?>/imgs/main/cover01.jpg" />
                     <img class="book-cover-light" src="<?php bloginfo('template_url'); ?>/imgs/common/bg_book_cover_light.png" />
                 </div>
             </div>

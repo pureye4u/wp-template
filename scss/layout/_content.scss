@@ -102,7 +102,7 @@
         animation-name: init init-top;
     }
 
-    &.top.right {
+    &.top-right {
         top: 0;
         right: 0;
         animation-name: init, init-top-right;
@@ -114,7 +114,7 @@
         animation-name: init, init-right;
     }
 
-    &.bottom.right {
+    &.bottom-right {
         bottom: 0;
         right: 0;
         animation-name: init, init-bottom-right;
@@ -125,7 +125,7 @@
         animation-name: init, init-bottom;
     }
 
-    &.bottom.left {
+    &.bottom-left {
         bottom: 0;
         left: 0;
         animation-name: init, init-bottom-left;
@@ -137,7 +137,7 @@
         animation-name: init, init-left;
     }
 
-    &.top.left {
+    &.top-left {
         top: 0;
         left: 0;
         animation-name: init, init-top-left;
@@ -234,16 +234,16 @@
                 }
             }
 
-            > a .detail-list:after {
-                content: "more";
-                position: absolute;
-                right: 0;
-                bottom: 0;
-                color: #fff;
-                font-size: 13px;
-                font-style: italic;
-                text-decoration: underline;
-            }
+            // > a .detail-list:after {
+            //     content: "more";
+            //     position: absolute;
+            //     right: 0;
+            //     bottom: 0;
+            //     color: #fff;
+            //     font-size: 13px;
+            //     font-style: italic;
+            //     text-decoration: underline;
+            // }
         }
     }
 
@@ -290,16 +290,16 @@
             }
 
 
-            > a .description:after {
-                content: "more";
-                display: block;
-                margin-top: 8px;
-                text-align: right;
-                color: #fff;
-                font-size: 13px;
-                font-style: italic;
-                text-decoration: underline;
-            }
+            // > a .description:after {
+            //     content: "more";
+            //     display: block;
+            //     margin-top: 8px;
+            //     text-align: right;
+            //     color: #fff;
+            //     font-size: 13px;
+            //     font-style: italic;
+            //     text-decoration: underline;
+            // }
         }
     }
 
@@ -345,18 +345,28 @@
             }
 
 
-            > a .description:after {
-                content: "more";
-                display: block;
-                margin-top: 8px;
-                text-align: right;
-                color: #fff;
-                font-size: 13px;
-                font-style: italic;
-                text-decoration: underline;
-            }
+            // > a .description:after {
+            //     content: "more";
+            //     display: block;
+            //     margin-top: 8px;
+            //     text-align: right;
+            //     color: #fff;
+            //     font-size: 13px;
+            //     font-style: italic;
+            //     text-decoration: underline;
+            // }
         }
     }
+}
+
+span.more {
+    display: block;
+    margin-top: 8px;
+    text-align: right;
+    color: #fff;
+    font-size: 13px;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 .detail-content {
@@ -372,6 +382,7 @@
         li {
             float: left;
             color: #104832;
+            font-family: 'Cantata One', serif;
 
             a {
                 color: #104832;
@@ -396,6 +407,7 @@
             height: 60px;
             overflow: hidden;
             font-size: 34px;
+            font-family: 'Cantata One', serif;
             line-height: 60px;
         }
     }
@@ -752,6 +764,8 @@ $content-dl-spacing: 30px;
     }
 }
 
+$ellipsis-line-height: 20px;
+
 .ellipsis,
 .ellipsis > p {
     overflow: hidden;
@@ -769,21 +783,25 @@ $content-dl-spacing: 30px;
 .double-line,
 .double-line > p {
     -webkit-line-clamp: 2;
+    max-height: $ellipsis-line-height * 2;
 }
 
 .triple-line,
 .triple-line > p {
     -webkit-line-clamp: 3;
+    max-height: $ellipsis-line-height * 3;
 }
 
 .quadruple-line,
 .quadruple-line > p {
     -webkit-line-clamp: 4;
+    max-height: $ellipsis-line-height * 4;
 }
 
 .quintuple-line,
 .quintuple-line > p {
     -webkit-line-clamp: 5;
+    max-height: $ellipsis-line-height * 5;
 }
 
 .ellipsis.single,

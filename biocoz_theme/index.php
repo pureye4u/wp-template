@@ -29,6 +29,7 @@ if ( $query_string == "pagename=send_mail" ) {
 <title><?php bloginfo('name'); ?> <?php wp_title('|'); ?></title>
 <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cantata+One" rel="stylesheet">
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 <script src="<?php bloginfo('template_url'); ?>/js/jquery-3.1.1.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/materialize.min.js"></script>

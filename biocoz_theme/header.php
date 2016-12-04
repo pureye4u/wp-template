@@ -18,7 +18,7 @@
             <li class="language"><a href="">KR</a></li>
             <li class="language"><a href="">EN</a></li>
         </ul>
-        <ul class="language-box hide-on-med-and-down">
+        <ul class="language-box hide-on-med-and-down" style="display:none;">
             <li><a href="#kr">KOREAN</a></li>
             <li><a href="#en">ENGLISH</a></li>
         </ul>

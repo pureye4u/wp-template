@@ -17,6 +17,7 @@
                         <li>Bio-economy 주요 300인 선정 (The Digest, 2013-14)</li>
                         <li>미국 최초의 바이오테크놀로지 회사 Genzyme<br />(히알루론산 최초 개발사)의 공동 설립자</li>
                     </ul>
+                    <span class="more">more</span>
                 </div>
             </a>
         </li>
@@ -33,6 +34,7 @@
                         <li>WHO 흑색종 병리학 프로그램 패널 공동의장 (1992년~현재)</li>
                         <li>Brigham and Women’s Hospital 흑색종 프로그램<br />책임자 (Harvard Medical School 부속 의료원)</li>
                     </ul>
+                    <span class="more">more</span>
                 </div>
             </a>
         </li>
@@ -53,6 +55,7 @@
                         <li>아시아 태평양 Bio-Safety 협회 前 회장</li>
                         <li>한국 과학 기술 한림원 정회원</li>
                     </ul>
+                    <span class="more">more</span>
                 </div>
             </a>
         </li>

@@ -17,6 +17,7 @@
 <title><?php bloginfo('name'); ?> <?php wp_title('|'); ?></title>
 <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cantata+One" rel="stylesheet">
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 <script src="<?php bloginfo('template_url'); ?>/js/jquery-3.1.1.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/materialize.min.js"></script>
@@ -26,8 +27,6 @@
 <?php get_header(); ?>
 <div class="wrap">
     <div class="scroll-box dual-page">
-        <img class="floating-object top left" src="<?php bloginfo('template_url'); ?>/imgs/common/bg_obj01_crop.png" />
-        <img class="floating-object right" src="<?php bloginfo('template_url'); ?>/imgs/common/bg_obj02_crop.png" />
         <div class="bg-book">
             <div class="contents">
                 <div class="dim">

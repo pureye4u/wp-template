@@ -3095,32 +3095,32 @@ nav {
 
 @font-face {
   font-family: "Roboto";
-  src: local(Roboto Thin), url("../fonts/roboto/Roboto-Thin.eot");
-  src: url("../fonts/roboto/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff"), url("../fonts/roboto/Roboto-Thin.ttf") format("truetype");
+  src: local(Roboto Thin), url("fonts/roboto/Roboto-Thin.eot");
+  src: url("fonts/roboto/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("fonts/roboto/Roboto-Thin.woff") format("woff"), url("fonts/roboto/Roboto-Thin.ttf") format("truetype");
   font-weight: 200; }
 
 @font-face {
   font-family: "Roboto";
-  src: local(Roboto Light), url("../fonts/roboto/Roboto-Light.eot");
-  src: url("../fonts/roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Light.woff2") format("woff2"), url("../fonts/roboto/Roboto-Light.woff") format("woff"), url("../fonts/roboto/Roboto-Light.ttf") format("truetype");
+  src: local(Roboto Light), url("fonts/roboto/Roboto-Light.eot");
+  src: url("fonts/roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("fonts/roboto/Roboto-Light.woff2") format("woff2"), url("fonts/roboto/Roboto-Light.woff") format("woff"), url("fonts/roboto/Roboto-Light.ttf") format("truetype");
   font-weight: 300; }
 
 @font-face {
   font-family: "Roboto";
-  src: local(Roboto Regular), url("../fonts/roboto/Roboto-Regular.eot");
-  src: url("../fonts/roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/Roboto-Regular.woff") format("woff"), url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
+  src: local(Roboto Regular), url("fonts/roboto/Roboto-Regular.eot");
+  src: url("fonts/roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("fonts/roboto/Roboto-Regular.woff") format("woff"), url("fonts/roboto/Roboto-Regular.ttf") format("truetype");
   font-weight: 400; }
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/roboto/Roboto-Medium.eot");
-  src: url("../fonts/roboto/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/roboto/Roboto-Medium.woff") format("woff"), url("../fonts/roboto/Roboto-Medium.ttf") format("truetype");
+  src: url("fonts/roboto/Roboto-Medium.eot");
+  src: url("fonts/roboto/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("fonts/roboto/Roboto-Medium.woff") format("woff"), url("fonts/roboto/Roboto-Medium.ttf") format("truetype");
   font-weight: 500; }
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/roboto/Roboto-Bold.eot");
-  src: url("../fonts/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/Roboto-Bold.woff") format("woff"), url("../fonts/roboto/Roboto-Bold.ttf") format("truetype");
+  src: url("fonts/roboto/Roboto-Bold.eot");
+  src: url("fonts/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("fonts/roboto/Roboto-Bold.woff") format("woff"), url("fonts/roboto/Roboto-Bold.ttf") format("truetype");
   font-weight: 700; }
 
 a {
@@ -6506,9 +6506,12 @@ input, select {
 .contents {
   position: relative;
   width: 1200px;
-  height: 772px;
+  height: 932px;
   margin: 0 auto;
-  color: #fff; }
+  color: #333; }
+
+.bg-book > .contents {
+  height: 772px; }
 
 .single-page .contents {
   width: 600px; }
@@ -6520,7 +6523,7 @@ input, select {
   width: 1200px;
   height: 932px;
   margin-left: -600px;
-  padding: 77px 292px 0 288px;
+  padding: 77px 294px 0 286px;
   background: url("imgs/common/bg_book_cover.png") center center no-repeat; }
   .book-frame .book-cover {
     position: relative;
@@ -6606,7 +6609,7 @@ input, select {
   .floating-object.top {
     top: 0;
     animation-name: init init-top; }
-  .floating-object.top.right {
+  .floating-object.top-right {
     top: 0;
     right: 0;
     animation-name: init, init-top-right; }
@@ -6614,14 +6617,14 @@ input, select {
     top: 0;
     right: 0;
     animation-name: init, init-right; }
-  .floating-object.bottom.right {
+  .floating-object.bottom-right {
     bottom: 0;
     right: 0;
     animation-name: init, init-bottom-right; }
   .floating-object.bottom {
     bottom: 0;
     animation-name: init, init-bottom; }
-  .floating-object.bottom.left {
+  .floating-object.bottom-left {
     bottom: 0;
     left: 0;
     animation-name: init, init-bottom-left; }
@@ -6629,7 +6632,7 @@ input, select {
     top: 0;
     left: 0;
     animation-name: init, init-left; }
-  .floating-object.top.left {
+  .floating-object.top-left {
     top: 0;
     left: 0;
     animation-name: init, init-top-left; }
@@ -6639,75 +6642,68 @@ input, select {
 
 .bg-book {
   position: relative;
-  min-height: 772px;
+  min-height: 932px;
   padding: 80px 0 63px; }
 
 .dual-page .bg-book {
   background: url("imgs/common/bg_book_open.png") center top no-repeat; }
 
-.dual-page .page:last-of-type .rnd-list,
-.dual-page .page:last-of-type .rnd-list2,
-.dual-page .page:last-of-type .press-list {
+.dual-page .page .rnd-list,
+.dual-page .page .rnd-list2,
+.dual-page .page .press-list {
   padding: 0 70px 0 38px; }
+
+.dual-page .page:first-of-type .rnd-list,
+.dual-page .page:first-of-type .rnd-list2,
+.dual-page .page:first-of-type .press-list {
+  padding: 0 38px 0 70px; }
 
 .dual-page .page {
   float: left;
   width: 600px; }
   .dual-page .page .rnd-list:first-child {
     padding-top: 38px; }
-  .dual-page .page .rnd-list {
-    padding: 0 38px 0 70px; }
-    .dual-page .page .rnd-list .rnd-list-item {
-      position: relative;
-      height: 164px;
-      margin: 50px 0; }
-      .dual-page .page .rnd-list .rnd-list-item .list-thumb {
-        position: absolute;
-        width: 122px;
-        height: 122px;
-        overflow: hidden;
-        border-radius: 100%; }
-      .dual-page .page .rnd-list .rnd-list-item .list-content {
-        margin-left: 150px;
-        padding: 5px 0; }
-        .dual-page .page .rnd-list .rnd-list-item .list-content .title {
-          font-size: 18px;
-          color: #fff;
-          line-height: 30px; }
-        .dual-page .page .rnd-list .rnd-list-item .list-content .sub-title {
-          height: 30px;
-          font-size: 16px;
-          color: #75b5ff; }
-        .dual-page .page .rnd-list .rnd-list-item .list-content .detail-list > li:before {
-          content: "";
-          display: inline-block;
-          width: 3px;
-          height: 3px;
-          margin: 2px 7px 2px -10px;
-          background-color: #b6b6b6;
-          border-radius: 100%;
-          overflow: hidden; }
-        .dual-page .page .rnd-list .rnd-list-item .list-content .detail-list > li {
-          padding: 4px 0 0 10px;
-          font-size: 12px;
-          color: #b6b6b6;
-          line-height: 16px; }
-        .dual-page .page .rnd-list .rnd-list-item .list-content .detail-content {
-          display: none; }
-      .dual-page .page .rnd-list .rnd-list-item > a .detail-list:after {
-        content: "more";
-        position: absolute;
-        right: 0;
-        bottom: 0;
+  .dual-page .page .rnd-list .rnd-list-item {
+    position: relative;
+    height: 164px;
+    margin: 50px 0; }
+    .dual-page .page .rnd-list .rnd-list-item .list-thumb {
+      position: absolute;
+      width: 122px;
+      height: 122px;
+      overflow: hidden;
+      border-radius: 100%; }
+    .dual-page .page .rnd-list .rnd-list-item .list-content {
+      margin-left: 150px;
+      padding: 5px 0; }
+      .dual-page .page .rnd-list .rnd-list-item .list-content .title {
+        font-size: 18px;
         color: #fff;
-        font-size: 13px;
-        font-style: italic;
-        text-decoration: underline; }
+        line-height: 30px; }
+      .dual-page .page .rnd-list .rnd-list-item .list-content .sub-title {
+        height: 30px;
+        font-size: 16px;
+        color: #75b5ff; }
+      .dual-page .page .rnd-list .rnd-list-item .list-content .detail-list > li:before {
+        content: "";
+        display: inline-block;
+        width: 3px;
+        height: 3px;
+        margin: 2px 7px 2px -10px;
+        background-color: #b6b6b6;
+        border-radius: 100%;
+        overflow: hidden; }
+      .dual-page .page .rnd-list .rnd-list-item .list-content .detail-list > li {
+        padding: 4px 0 0 10px;
+        font-size: 12px;
+        color: #b6b6b6;
+        line-height: 16px; }
+      .dual-page .page .rnd-list .rnd-list-item .list-content .detail-content {
+        display: none; }
   .dual-page .page .rnd-list2:first-child {
     padding-top: 252px; }
   .dual-page .page .rnd-list2 {
-    margin-top: -40px;
-    padding: 0 38px 0 70px; }
+    margin-top: -40px; }
     .dual-page .page .rnd-list2 .rnd-list-item {
       position: relative;
       height: 164px;
@@ -6731,51 +6727,40 @@ input, select {
           line-height: 20px; }
         .dual-page .page .rnd-list2 .rnd-list-item .list-content .detail-content {
           display: none; }
-      .dual-page .page .rnd-list2 .rnd-list-item > a .description:after {
-        content: "more";
-        display: block;
-        margin-top: 8px;
-        text-align: right;
-        color: #fff;
-        font-size: 13px;
-        font-style: italic;
-        text-decoration: underline; }
   .dual-page .page .press-list:first-child {
     padding-top: 108px; }
-  .dual-page .page .press-list {
-    padding: 0 38px 0 70px; }
-    .dual-page .page .press-list .press-list-item {
-      position: relative;
-      height: 144px;
-      margin: 0; }
-      .dual-page .page .press-list .press-list-item .list-thumb {
-        position: absolute;
-        width: 94px;
-        height: 94px;
-        overflow: hidden;
-        border-radius: 100%; }
-      .dual-page .page .press-list .press-list-item .list-content {
-        margin-left: 126px;
-        padding: 5px 0; }
-        .dual-page .page .press-list .press-list-item .list-content .title {
-          font-size: 17px;
-          color: #fff;
-          line-height: 36px; }
-        .dual-page .page .press-list .press-list-item .list-content .description {
-          font-size: 13px;
-          color: #b6b6b6;
-          line-height: 20px; }
-        .dual-page .page .press-list .press-list-item .list-content .detail-content {
-          display: none; }
-      .dual-page .page .press-list .press-list-item > a .description:after {
-        content: "more";
-        display: block;
-        margin-top: 8px;
-        text-align: right;
+  .dual-page .page .press-list .press-list-item {
+    position: relative;
+    height: 144px;
+    margin: 0; }
+    .dual-page .page .press-list .press-list-item .list-thumb {
+      position: absolute;
+      width: 94px;
+      height: 94px;
+      overflow: hidden;
+      border-radius: 100%; }
+    .dual-page .page .press-list .press-list-item .list-content {
+      margin-left: 126px;
+      padding: 5px 0; }
+      .dual-page .page .press-list .press-list-item .list-content .title {
+        font-size: 17px;
         color: #fff;
+        line-height: 36px; }
+      .dual-page .page .press-list .press-list-item .list-content .description {
         font-size: 13px;
-        font-style: italic;
-        text-decoration: underline; }
+        color: #b6b6b6;
+        line-height: 20px; }
+      .dual-page .page .press-list .press-list-item .list-content .detail-content {
+        display: none; }
+
+span.more {
+  display: block;
+  margin-top: 8px;
+  text-align: right;
+  color: #fff;
+  font-size: 13px;
+  font-style: italic;
+  text-decoration: underline; }
 
 .detail-content {
   padding: 46px 80px; }
@@ -6786,9 +6771,10 @@ input, select {
     font-size: 13px;
     line-height: 16px; }
     .detail-content .hierarchy li {
-      float: left; }
+      float: left;
+      color: #104832; }
       .detail-content .hierarchy li a {
-        color: #fff; }
+        color: #104832; }
     .detail-content .hierarchy li:after {
       content: ">";
       margin: 0 10px; }
@@ -6809,17 +6795,16 @@ input, select {
     width: 26px;
     height: 4px;
     margin: 24px 0;
-    background-color: #fff; }
+    background-color: #333; }
   .detail-content .title-bar {
     position: relative;
-    border-bottom: rgba(255, 255, 255, 0.2) solid 1px;
-    margin-bottom: 50px; }
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
     .detail-content .title-bar h2.post-title {
       height: 52px;
       font-size: 22px;
       font-weight: bold;
       line-height: 52px;
-      color: #ffffff; }
+      color: #444; }
     .detail-content .title-bar .post-info {
       position: absolute;
       top: 0;
@@ -6828,12 +6813,15 @@ input, select {
       .detail-content .title-bar .post-info .post-info-date {
         margin-left: 5px;
         font-size: 13px;
-        color: #b6b6b6;
+        color: #444;
         line-height: 52px; }
   .detail-content .content-body {
-    border-bottom: rgba(255, 255, 255, 0.2) solid 1px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     font-size: 15px;
-    color: #b6b6b6; }
+    color: #666;
+    line-height: 20px; }
+    .detail-content .content-body > p {
+      margin: 50px 0; }
 
 .dual-page:after {
   content: "";
@@ -6936,6 +6924,7 @@ input, select {
 
 .dim {
   position: fixed;
+  z-index: 10;
   left: 0;
   top: 0;
   width: 100%;
@@ -6944,34 +6933,71 @@ input, select {
   overflow-y: auto;
   background-color: rgba(0, 0, 0, 0.2); }
 
-.detail:before,
-.detail:after {
-  content: "";
-  display: block;
-  width: 1060px;
-  height: 2px; }
-
-.detail:before {
-  background: url("imgs/common/bg_detail_top.png"); }
-
-.detail:after {
-  background: url("imgs/common/bg_detail_btm.png");
-  margin-bottom: 20px; }
-
 .detail {
   position: relative;
   width: 1060px;
   margin: 0 auto;
-  background: url("imgs/common/bg_detail_mid.png");
-  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.55); }
+  background: #ceddce url("imgs/common/bg_detail_tile.png");
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.55);
+  border: 6px solid #fff; }
   .detail .btn-close-detail {
     position: absolute;
-    left: 100%;
+    left: 1054px;
     top: 30px; }
   .detail .detail-btn-box {
     height: 110px;
     padding: 0 80px;
     text-align: right; }
+
+.content-body dl {
+  position: relative; }
+  .content-body dl dt {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 125px; }
+  .content-body dl dd {
+    margin-left: 155px; }
+
+.content-body dl.thumb-title-description {
+  height: 155px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+  .content-body dl.thumb-title-description dt {
+    width: 124px;
+    height: 124px;
+    border-radius: 100%;
+    overflow: hidden; }
+  .content-body dl.thumb-title-description dd {
+    font-size: 23px;
+    line-height: 36px; }
+  .content-body dl.thumb-title-description dd:nth-of-type(1) {
+    font-weight: bold;
+    color: #444; }
+  .content-body dl.thumb-title-description dd:nth-of-type(2) {
+    color: #26885e; }
+
+.content-body dl.define-list {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .content-body dl.define-list dt {
+    font-size: 18px;
+    color: #333; }
+  .content-body dl.define-list dd {
+    margin-bottom: 7px;
+    font-size: 13px;
+    color: #666;
+    line-height: 18px; }
+  .content-body dl.define-list dd:before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    margin: 2px 7px 2px -10px;
+    background-color: #b6b6b6;
+    border-radius: 100%;
+    overflow: hidden; }
 
 .ellipsis,
 .ellipsis > p {
@@ -6985,13 +7011,25 @@ input, select {
   display: -webkit-box;
   -webkit-box-orient: vertical; }
 
-.duo-line,
-.duo-line > p {
-  -webkit-line-clamp: 2; }
+.double-line,
+.double-line > p {
+  -webkit-line-clamp: 2;
+  max-height: 40px; }
 
 .triple-line,
 .triple-line > p {
-  -webkit-line-clamp: 3; }
+  -webkit-line-clamp: 3;
+  max-height: 60px; }
+
+.quadruple-line,
+.quadruple-line > p {
+  -webkit-line-clamp: 4;
+  max-height: 80px; }
+
+.quintuple-line,
+.quintuple-line > p {
+  -webkit-line-clamp: 5;
+  max-height: 100px; }
 
 .ellipsis.single,
 .ellipsis.single > p {
@@ -7027,7 +7065,7 @@ body {
   left: 0;
   overflow-y: auto;
   margin-top: 80px;
-  background: url("imgs/common/bg_one.jpg") center top no-repeat; }
+  background: #131313 url("imgs/common/bg_one.jpg") center top no-repeat; }
   .wrap > .scroll-box {
     position: relative;
     overflow: hidden; }
