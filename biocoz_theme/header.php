@@ -1,6 +1,6 @@
 <nav>
     <div class="nav-wrapper">
-        <a href="<?php echo home_url(); ?>" class="brand-logo"><img src="<?php bloginfo('template_url'); ?>/imgs/nav/logo.png" /></a>
+        <a href="<?php echo home_url(); ?>" class="brand-logo"><img src="<?php bloginfo('template_url'); ?>/imgs/nav/logo.jpg" /></a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <div class="gnb">
             <ul id="menu" class="normal center hide-on-med-and-down">
