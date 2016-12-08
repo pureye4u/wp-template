@@ -158,14 +158,16 @@
     background: url('imgs/common/bg_book_open.png') center top no-repeat;
 }
 
-.dual-page .page .rnd-list,
-.dual-page .page .rnd-list2,
-.dual-page .page .press-list {
+// .dual-page .page .rnd-list,
+// .dual-page .page .rnd-list2,
+// .dual-page .page .press-list,
+.dual-page .page .page-body {
     padding: 0 70px 0 38px;
 }
-.dual-page .page:first-of-type .rnd-list,
-.dual-page .page:first-of-type .rnd-list2,
-.dual-page .page:first-of-type .press-list {
+// .dual-page .page:first-of-type .rnd-list,
+// .dual-page .page:first-of-type .rnd-list2,
+// .dual-page .page:first-of-type .press-list,
+.dual-page .page:first-of-type .page-body {
     padding: 0 38px 0 70px;
 }
 
@@ -198,14 +200,16 @@
 
                 .title {
                     font-size: 18px;
-                    color: #fff;
+                    font-weight: bold;
+                    color: #333;
                     line-height: 30px;
                 }
 
                 .sub-title {
                     height: 30px;
                     font-size: 16px;
-                    color: #75b5ff;
+                    font-weight: bold;
+                    color: #009bed;
                 }
 
                 .detail-list {
@@ -223,8 +227,8 @@
 
                     > li {
                         padding: 4px 0 0 10px;
-                        font-size: 12px;
-                        color: #b6b6b6;
+                        font-size: 13px;
+                        color: #555555;
                         line-height: 16px;
                     }
                 }
@@ -273,14 +277,15 @@
 
                 .title {
                     font-size: 17px;
-                    color: #fff;
+                    font-weight: bold;
+                    color: #333;
                     line-height: 36px;
                 }
 
                 .description {
                     // height: 30px;
                     font-size: 13px;
-                    color: #b6b6b6;
+                    color: #555555;
                     line-height: 20px;
                 }
 
@@ -328,14 +333,15 @@
 
                 .title {
                     font-size: 17px;
-                    color: #fff;
+                    font-weight: bold;
+                    color: #333;
                     line-height: 36px;
                 }
 
                 .description {
                     // height: 30px;
                     font-size: 13px;
-                    color: #b6b6b6;
+                    color: #555555;
                     line-height: 20px;
                 }
 
@@ -362,6 +368,7 @@
         float: right;
         height: 16px;
         overflow: hidden;
+        margin-top: 50px;
         font-size: 13px;
         line-height: 16px;
 
@@ -408,12 +415,26 @@
         background-color: #333;
     }
 
-    .page-subject {
-        color: #009bed;
-    }
-
     .page-content {
+        color: #555555;
+        font-size: 14px;
+        line-height: 22px;
 
+        > p {
+            margin: 20px 0;
+        }
+
+        > p.align-left {
+            text-align: left;
+        }
+
+        > p.align-center {
+            text-align: center;
+        }
+
+        > p.align-right {
+            text-align: right;
+        }
     }
 }
 
@@ -421,7 +442,7 @@ span.more {
     display: block;
     margin-top: 8px;
     text-align: right;
-    color: #fff;
+    color: #555555;
     font-size: 13px;
     font-style: italic;
     text-decoration: underline;

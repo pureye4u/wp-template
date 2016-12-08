@@ -6649,14 +6649,10 @@ input, select {
 .dual-page .bg-book {
   background: url("imgs/common/bg_book_open.png") center top no-repeat; }
 
-.dual-page .page .rnd-list,
-.dual-page .page .rnd-list2,
-.dual-page .page .press-list {
+.dual-page .page .page-body {
   padding: 0 70px 0 38px; }
 
-.dual-page .page:first-of-type .rnd-list,
-.dual-page .page:first-of-type .rnd-list2,
-.dual-page .page:first-of-type .press-list {
+.dual-page .page:first-of-type .page-body {
   padding: 0 38px 0 70px; }
 
 .dual-page .page {
@@ -6679,12 +6675,14 @@ input, select {
       padding: 5px 0; }
       .dual-page .page .rnd-list .rnd-list-item .list-content .title {
         font-size: 18px;
-        color: #fff;
+        font-weight: bold;
+        color: #333;
         line-height: 30px; }
       .dual-page .page .rnd-list .rnd-list-item .list-content .sub-title {
         height: 30px;
         font-size: 16px;
-        color: #75b5ff; }
+        font-weight: bold;
+        color: #009bed; }
       .dual-page .page .rnd-list .rnd-list-item .list-content .detail-list > li:before {
         content: "";
         display: inline-block;
@@ -6696,8 +6694,8 @@ input, select {
         overflow: hidden; }
       .dual-page .page .rnd-list .rnd-list-item .list-content .detail-list > li {
         padding: 4px 0 0 10px;
-        font-size: 12px;
-        color: #b6b6b6;
+        font-size: 13px;
+        color: #555555;
         line-height: 16px; }
       .dual-page .page .rnd-list .rnd-list-item .list-content .detail-content {
         display: none; }
@@ -6720,11 +6718,12 @@ input, select {
         padding: 5px 0; }
         .dual-page .page .rnd-list2 .rnd-list-item .list-content .title {
           font-size: 17px;
-          color: #fff;
+          font-weight: bold;
+          color: #333;
           line-height: 36px; }
         .dual-page .page .rnd-list2 .rnd-list-item .list-content .description {
           font-size: 13px;
-          color: #b6b6b6;
+          color: #555555;
           line-height: 20px; }
         .dual-page .page .rnd-list2 .rnd-list-item .list-content .detail-content {
           display: none; }
@@ -6745,11 +6744,12 @@ input, select {
       padding: 5px 0; }
       .dual-page .page .press-list .press-list-item .list-content .title {
         font-size: 17px;
-        color: #fff;
+        font-weight: bold;
+        color: #333;
         line-height: 36px; }
       .dual-page .page .press-list .press-list-item .list-content .description {
         font-size: 13px;
-        color: #b6b6b6;
+        color: #555555;
         line-height: 20px; }
       .dual-page .page .press-list .press-list-item .list-content .detail-content {
         display: none; }
@@ -6757,6 +6757,7 @@ input, select {
     float: right;
     height: 16px;
     overflow: hidden;
+    margin-top: 50px;
     font-size: 13px;
     line-height: 16px; }
     .dual-page .page .page-hierarchy li {
@@ -6787,14 +6788,24 @@ input, select {
     height: 4px;
     margin: 24px 0;
     background-color: #333; }
-  .dual-page .page .page-subject {
-    color: #009bed; }
+  .dual-page .page .page-content {
+    color: #555555;
+    font-size: 14px;
+    line-height: 22px; }
+    .dual-page .page .page-content > p {
+      margin: 20px 0; }
+    .dual-page .page .page-content > p.align-left {
+      text-align: left; }
+    .dual-page .page .page-content > p.align-center {
+      text-align: center; }
+    .dual-page .page .page-content > p.align-right {
+      text-align: right; }
 
 span.more {
   display: block;
   margin-top: 8px;
   text-align: right;
-  color: #fff;
+  color: #555555;
   font-size: 13px;
   font-style: italic;
   text-decoration: underline; }
