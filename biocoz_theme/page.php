@@ -32,7 +32,7 @@ $post_slug = $post->post_name;
 $parent = get_page($post->post_parent);
 $parent_slug = $parent->post_name;
 ?>
-<?php if( $post_slug == "global-rd-network" || $parent_slug == "business" ):?>
+<?php if( $post_slug == "global-rd-network" || $parent_slug == "about-us" ):?>
             <img class="floating-object top-left" src="<?php bloginfo('template_url'); ?>/imgs/common/bg_obj01_crop.png" />
             <img class="floating-object right" src="<?php bloginfo('template_url'); ?>/imgs/common/bg_obj02_crop.png" />
 <?php elseif( $parent_slug == "rd" ): ?>

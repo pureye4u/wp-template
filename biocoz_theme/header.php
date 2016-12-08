@@ -4,7 +4,7 @@
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <div class="gnb">
             <ul id="menu" class="normal center hide-on-med-and-down">
-                <li><a class="dropdown-button" href="/ceo-message/" data-activates="dropdown1"><span>BUSINESS</span></a></li>
+                <li><a class="dropdown-button" href="/ceo-message/" data-activates="dropdown1"><span>ABOUT US</span></a></li>
                 <li><a class="dropdown-button" href="/global-rd-network/" data-activates="dropdown2"><span>R&amp;D</span></a></li>
                 <li><a href="/contact-us/"><span>CONTACT US</span></a></li>
                 <li><a href="/archives/category/press/"><span>PRESS</span></a></li>
@@ -36,12 +36,12 @@
 </nav>
 <script>
 var paths = [
-    ['ceo-message', 'history'],
+    ['about-us/ceo-message', 'about-us/history'],
     [
-        'global-rd-network',
-        'research-material-list-page-1',
-        'research-material-list-page-2',
-        'research-material-list-page-3',
+        'rd/global-rd-network',
+        'rd/research-material-list-page-1',
+        'rd/research-material-list-page-2',
+        'rd/research-material-list-page-3',
         'archives/93',
         'archives/97',
         'archives/117',

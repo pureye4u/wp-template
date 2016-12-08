@@ -34,10 +34,7 @@ nav {
                 span {
                     display: inline-block;
                     overflow: hidden;
-                    line-height: 500px;
                     height: 80px;
-                    background-repeat: no-repeat;
-                    background-position: center center;
                 }
             }
 
@@ -81,42 +78,42 @@ nav {
                 }
             }
         }
-        
-        >li:nth-child(1) >a >span {
-            width: $gnb-menu01-width;
-            background-image: url('imgs/nav/gnb_menu01.png');
-        }
 
-        >li.selected:nth-child(1) >a >span {
-            background-image: url('imgs/nav/gnb_menu01_on.png');
-        }
-
-        >li:nth-child(2) >a >span {
-            width: $gnb-menu02-width;
-            background-image: url('imgs/nav/gnb_menu02.png');
-        }
-
-        >li.selected:nth-child(2) >a >span {
-            background-image: url('imgs/nav/gnb_menu02_on.png');
-        }
-
-        >li:nth-child(3) >a >span {
-            width: $gnb-menu03-width;
-            background-image: url('imgs/nav/gnb_menu03.png');
-        }
-
-        >li.selected:nth-child(3) >a >span {
-            background-image: url('imgs/nav/gnb_menu03_on.png');
-        }
-
-        >li:nth-child(4) >a >span {
-            width: $gnb-menu04-width;
-            background-image: url('imgs/nav/gnb_menu04.png');
-        }
-
-        >li.selected:nth-child(4) >a >span {
-            background-image: url('imgs/nav/gnb_menu04_on.png');
-        }
+        // >li:nth-child(1) >a >span {
+        //     width: $gnb-menu01-width;
+        //     background-image: url('imgs/nav/gnb_menu01.png');
+        // }
+        //
+        // >li.selected:nth-child(1) >a >span {
+        //     background-image: url('imgs/nav/gnb_menu01_on.png');
+        // }
+        //
+        // >li:nth-child(2) >a >span {
+        //     width: $gnb-menu02-width;
+        //     background-image: url('imgs/nav/gnb_menu02.png');
+        // }
+        //
+        // >li.selected:nth-child(2) >a >span {
+        //     background-image: url('imgs/nav/gnb_menu02_on.png');
+        // }
+        //
+        // >li:nth-child(3) >a >span {
+        //     width: $gnb-menu03-width;
+        //     background-image: url('imgs/nav/gnb_menu03.png');
+        // }
+        //
+        // >li.selected:nth-child(3) >a >span {
+        //     background-image: url('imgs/nav/gnb_menu03_on.png');
+        // }
+        //
+        // >li:nth-child(4) >a >span {
+        //     width: $gnb-menu04-width;
+        //     background-image: url('imgs/nav/gnb_menu04.png');
+        // }
+        //
+        // >li.selected:nth-child(4) >a >span {
+        //     background-image: url('imgs/nav/gnb_menu04_on.png');
+        // }
     }
 
     .highlight-bar {
