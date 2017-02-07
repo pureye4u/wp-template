@@ -8,7 +8,7 @@
         </div>
         <div class="map-area">
             <div id="mapContainer" class="map ko">
-                <img id="mapKo" src="/wp-content/uploads/2016/11/map_ko-1.png" alt="map_ko" width="492" height="286" class="alignnone size-full wp-image-150" /><img id="mapSg src="http://52.193.207.25/wp-content/uploads/2016/11/map_sg.png" alt="map_sg" width="492" height="287" class="alignnone size-full wp-image-59" />
+                <img id="mapKo" src="/wp-content/uploads/2016/11/map_ko-1.png" alt="map_ko" width="492" height="286" class="alignnone size-full wp-image-150" /><img id="mapSg" src="/wp-content/uploads/2016/11/map_sg.png" alt="map_sg" width="492" height="287" class="alignnone size-full wp-image-59" />
             </div>
             <div class="tab">
                 <button id="btnMapKo" />

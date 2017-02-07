@@ -158,33 +158,28 @@
     background: url('imgs/common/bg_book_open.png') center top no-repeat;
 }
 
-// .dual-page .page .rnd-list,
-// .dual-page .page .rnd-list2,
-// .dual-page .page .press-list,
 .dual-page .page .page-body {
-    padding: 0 70px 0 38px;
+    padding: 76px 70px 0 38px;
 }
-// .dual-page .page:first-of-type .rnd-list,
-// .dual-page .page:first-of-type .rnd-list2,
-// .dual-page .page:first-of-type .press-list,
+
 .dual-page .page:first-of-type .page-body {
-    padding: 0 38px 0 70px;
+    padding: 76px 38px 0 70px;
 }
 
 .dual-page .page {
     float: left;
     width: 600px;
 
-    .rnd-list:first-child {
-        padding-top: 38px;
-    }
+    // .rnd-list:first-child {
+    //     padding-top: 38px;
+    // }
 
     .rnd-list {
 
         .rnd-list-item {
             position: relative;
-            height: 164px;
-            margin: 50px 0;
+            height: 124px;
+            margin: 30px 0;
 
             .list-thumb {
                 position: absolute;
@@ -196,18 +191,18 @@
 
             .list-content {
                 margin-left: 150px;
-                padding: 5px 0;
+                // padding: 5px 0;
 
                 .title {
                     font-size: 18px;
                     font-weight: bold;
                     color: #333;
-                    line-height: 30px;
+                    line-height: 26px;
                 }
 
                 .sub-title {
-                    height: 30px;
-                    font-size: 16px;
+                    height: 20px;
+                    font-size: 14px;
                     font-weight: bold;
                     color: #009bed;
                 }
@@ -226,8 +221,8 @@
                     }
 
                     > li {
-                        padding: 4px 0 0 10px;
-                        font-size: 13px;
+                        padding: 2px 0 0 10px;
+                        font-size: 12px;
                         color: #555555;
                         line-height: 16px;
                     }
@@ -368,7 +363,7 @@
         float: right;
         height: 16px;
         overflow: hidden;
-        margin-top: 50px;
+        margin-top: -38px;
         font-size: 13px;
         line-height: 16px;
 
@@ -397,11 +392,11 @@
         clear: both;
 
         h3 {
-            height: 60px;
+            height: 40px;
             overflow: hidden;
             font-size: 34px;
             font-family: 'Cantata One', serif;
-            line-height: 60px;
+            line-height: 40px;
         }
     }
 
@@ -536,11 +531,11 @@ span.more {
         clear: both;
 
         h3 {
-            height: 60px;
+            height: 40px;
             overflow: hidden;
             font-size: 34px;
             font-family: 'Cantata One', serif;
-            line-height: 60px;
+            line-height: 40px;
         }
     }
 
