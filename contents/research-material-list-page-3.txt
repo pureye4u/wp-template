@@ -1,34 +1,44 @@
 <div class="page">
-    <div class="title">
-        <img src="http://52.193.207.25/wp-content/uploads/2016/11/list_title.png" alt="list_title" width="600" height="244" class="alignnone size-full wp-image-66" />
+    <div class="page-body">
+        <ul class="page-hierarchy">
+            <li>R&D</li>
+            <li>RESEARCH MATERIAL</li>
+        </ul>
+        <div class="page-title">
+            <h3>Research Material</h3>
+        </div>
+        <div class="page-subtitle">
+            아름다움으로 가는 길.<br />
+            바이오코즈의 연구자료들을 살펴볼 수 있습니다.
+        </div>
+        <ul class="rnd-list2">
+            <li class="rnd-list-item">
+                <a href="/archives/132">
+                    <div class="list-thumb">
+                        <img src="/wp-content/uploads/2016/11/thumb_05.png" alt="thumb_05" width="164" height="164" class="alignnone size-full wp-image-178" />
+                    </div>
+                    <div class="list-content">
+                        <h3 class="title">가려움 및 염증완화 능력</h3>
+                        <div class="description ellipsis-multi quintuple-line">가려움 및 염증완화 능력 검증 결과, SPM-α는 Histamine과 β-hexosaminidase를 농도에 따라 각각 최대 29%와 32%까지 분비를 감소시켜 가려움 및 붉은기(염증반응)를 완화하는데 도움이 됩니다.</div>
+                        <span class="more">more</span>
+                    </div>
+                </a>
+            </li>
+            <li class="rnd-list-item">
+                <a href="/archives/134">
+                    <div class="list-thumb">
+                        <img src="/wp-content/uploads/2016/11/thumb_06.png" alt="thumb_06" width="164" height="164" class="alignnone size-full wp-image-179" />
+                    </div>
+                    <div class="list-content">
+                        <h3 class="title">UVA로 인한 피부손상 회복 능력</h3>
+                        <div class="description ellipsis-multi quintuple-line">UVA로 인한 피부손상 회복 능력 검증 결과, SPM-α는 화장품에 가장 많이 사용되는 자극완화제인 마**추출물과 비교하여 손상된 피부세포조직 회복에 탁월한 효능을 보입니다.<br />
+                        이것은 SPM-α가 눈에 보이지 않는 미세상처까지 케어함으로써 더욱 건강한 피부로 변화하는 데 도움을 드릴 수 있는 것을 의미합니다.</div>
+                        <span class="more">more</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
     </div>
-    <ul class="rnd-list2">
-        <li class="rnd-list-item">
-            <a href="/archives/132">
-                <div class="list-thumb">
-                    <img src="http://52.193.207.25/wp-content/uploads/2016/11/thumb_05.png" alt="thumb_05" width="164" height="164" class="alignnone size-full wp-image-178" />
-                </div>
-                <div class="list-content">
-                    <h3 class="title">가려움 및 염증완화 능력</h3>
-                    <div class="description ellipsis-multi quintuple-line">가려움 및 염증완화 능력 검증 결과, SPM-α는 Histamine과 β-hexosaminidase를 농도에 따라 각각 최대 29%와 32%까지 분비를 감소시켜 가려움 및 붉은기(염증반응)를 완화하는데 도움이 됩니다.</div>
-                    <span class="more">more</span>
-                </div>
-            </a>
-        </li>
-        <li class="rnd-list-item">
-            <a href="/archives/134">
-                <div class="list-thumb">
-                    <img src="http://52.193.207.25/wp-content/uploads/2016/11/thumb_06.png" alt="thumb_06" width="164" height="164" class="alignnone size-full wp-image-179" />
-                </div>
-                <div class="list-content">
-                    <h3 class="title">UVA로 인한 피부손상 회복 능력</h3>
-                    <div class="description ellipsis-multi quintuple-line">UVA로 인한 피부손상 회복 능력 검증 결과, SPM-α는 화장품에 가장 많이 사용되는 자극완화제인 마**추출물과 비교하여 손상된 피부세포조직 회복에 탁월한 효능을 보입니다.<br />
-                    이것은 SPM-α가 눈에 보이지 않는 미세상처까지 케어함으로써 더욱 건강한 피부로 변화하는 데 도움을 드릴 수 있는 것을 의미합니다.</div>
-                    <span class="more">more</span>
-                </div>
-            </a>
-        </li>
-    </ul>
 </div>
 <a class="btn-page-prev" href="/research-material-list-page-2/"><img src="/wp-content/themes/biocoz_theme/imgs/common/btn_page_prev.png" /></a>
 <a class="btn-page-next disabled" href="#"><img src="/wp-content/themes/biocoz_theme/imgs/common/btn_page_next.png" /></a>

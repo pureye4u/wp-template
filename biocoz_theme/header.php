@@ -1,3 +1,15 @@
+<ul class="side-nav" id="mobile-demo">
+    <li><a href="/ceo-message/">ABOUT US</a></li>
+    <li class="submenu"><a href="/ceo-message/">CEO MESSAGE</a></li>
+    <li class="submenu"><a href="/history/">HISTORY</a></li>
+    <li><a href="/global-rd-network/">R&amp;D</a></li>
+    <li class="submenu"><a href="/global-rd-network/">GLOBAL R&amp;D NETWORK</a></li>
+    <li class="submenu"><a href="/research-material-list-page-1/">RESEARCH MATERIAL</a></li>
+    <li><a href="/archives/category/press/">PRESS</a></li>
+    <li><a href="/contact-us/">CONTACT US</a></li>
+    <li class="language"><a href="">KR</a></li>
+    <li class="language"><a href="">EN</a></li>
+</ul>
 <nav>
     <div class="nav-wrapper">
         <a href="<?php echo home_url(); ?>" class="brand-logo"><img src="<?php bloginfo('template_url'); ?>/imgs/nav/logo.jpg" /></a>
@@ -6,18 +18,11 @@
             <ul id="menu" class="normal center hide-on-med-and-down">
                 <li><a class="dropdown-button" href="/ceo-message/" data-activates="dropdown1"><span>ABOUT US</span></a></li>
                 <li><a class="dropdown-button" href="/global-rd-network/" data-activates="dropdown2"><span>R&amp;D</span></a></li>
-                <li><a href="/contact-us/"><span>CONTACT US</span></a></li>
                 <li><a href="/archives/category/press/"><span>PRESS</span></a></li>
+                <li><a href="/contact-us/"><span>CONTACT US</span></a></li>
             </ul>
             <div class="highlight-bar"></div>
         </div>
-        <ul class="side-nav" id="mobile-demo">
-            <li><a href="#" data-activates="dropdown1">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li class="language"><a href="">KR</a></li>
-            <li class="language"><a href="">EN</a></li>
-        </ul>
         <ul class="language-box hide-on-med-and-down" style="display:none;">
             <li><a href="#kr">KOREAN</a></li>
             <li><a href="#en">ENGLISH</a></li>
@@ -52,8 +57,8 @@ var paths = [
         'archives/132',
         'archives/134',
     ],
-    ['contact-us'],
-    ['archives/category/press']
+    ['archives/category/press'],
+    ['contact-us']
 ];
 $(function() {
     var path = location.pathname.replace(/^\/|\/$/g, '');

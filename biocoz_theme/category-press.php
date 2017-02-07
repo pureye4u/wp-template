@@ -30,47 +30,56 @@
         <div class="bg-book">
             <div class="contents">
                 <div class="page">
-                    <div class="title">
-                        <img src="<?php bloginfo('template_url'); ?>/imgs/press/title.png" />
-                    </div>
+                    <div class="page-body">
+                        <ul class="page-hierarchy">
+                            <li>R&D</li>
+                            <li>RESEARCH MATERIAL</li>
+                        </ul>
+                        <div class="page-title">
+                            <h3>Research Material</h3>
+                        </div>
 <?php
 if ( have_posts() ) :
 ?>
-                    <ul class="press-list">
+                        <ul class="press-list">
 <?php
     $index = 0;
     while ( have_posts() ) :
         if ( $index == 2) :
 ?>
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
                 <div class="page">
-                    <ul class="press-list">
+                    <div class="page-body">
+                        <ul class="press-list">
 
 <?php
         endif;
         the_post();
 ?>
-                        <li class="press-list-item">
-                            <a href="<?php the_permalink(); ?>">
-                                <div class="list-thumb">
-                                    <?php
-                                      if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail( array(94,94));
-                                      }
-                                    ?>
-                                </div>
-                                <div class="list-content">
-                                    <h3 class="title"><?php the_title(); ?></h3>
-                                    <div class="description ellipsis-multi duo-line"><?php the_excerpt(); ?></div>
-                                </div>
-                            </a>
-                        </li>
+                            <li class="press-list-item">
+                                <a href="<?php the_permalink(); ?>">
+                                    <div class="list-thumb">
+                                        <?php
+                                          if ( has_post_thumbnail() ) {
+                                            the_post_thumbnail( array(94,94));
+                                          }
+                                        ?>
+                                    </div>
+                                    <div class="list-content">
+                                        <h3 class="title"><?php the_title(); ?></h3>
+                                        <div class="description ellipsis-multi double-line"><?php the_excerpt(); ?></div>
+                                        <span class="more">more</span>
+                                    </div>
+                                </a>
+                            </li>
 <?php
         $index++;
     endwhile;
 ?>
-                    </ul>
+                        </ul>
+                    </div>
 <?php
 else:
 ?>

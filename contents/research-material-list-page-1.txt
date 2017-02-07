@@ -1,9 +1,17 @@
-
 <div class="page">
-    <img src="http://52.193.207.25/wp-content/uploads/2016/11/txt_01-1.png" alt="txt_01" width="600" height="672" class="alignnone size-full wp-image-75" />
+    <div class="page-body">
+        <ul class="page-hierarchy">
+            <li>R&D</li>
+            <li>RESEARCH MATERIAL</li>
+        </ul>
+        <div class="page-title">
+            <h3>Research Material</h3>
+        </div>
+        <div><img src="/wp-content/uploads/2016/11/research_material_intro_left.png" alt="research_material_intro_left" width="492" height="488" class="alignnone size-full wp-image-227" /></div>
+    </div>
 </div>
 <div class="page">
-    <img src="http://52.193.207.25/wp-content/uploads/2016/11/txt_02-1.png" alt="txt_02" width="600" height="672" class="alignnone size-full wp-image-76" />
+    <div class="page-body" style="padding-top:190px"><img src="/wp-content/uploads/2016/11/research_material_intro_right.png" alt="research_material_intro_right" width="492" height="468" class="alignnone size-full wp-image-228" /></div>
 </div>
 <a class="btn-page-prev disabled" href="#"><img src="/wp-content/themes/biocoz_theme/imgs/common/btn_page_prev.png" /></a>
 <a class="btn-page-next" href="/research-material-list-page-2/"><img src="/wp-content/themes/biocoz_theme/imgs/common/btn_page_next.png" /></a>

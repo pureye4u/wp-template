@@ -37,6 +37,8 @@
 
     &.active { background-color: rgba(0,0,0,.05); }
     &.language { background-color: rgba(0,0,0,0.05); }
+    &.submenu { padding-left: 10px; }
+    // &.submenu { border-left: 10px solid rgba(0,0,0,0.05); }
   }
 
   a {
@@ -62,6 +64,10 @@
     &.btn:hover,
     &.btn-large:hover { background-color: lighten($button-raised-background, 5%); }
     &.btn-floating:hover { background-color: $button-raised-background; }
+  }
+
+  li.submenu a {
+      color: $sidenav-submenu-font-color;
   }
 
   li > a > i,

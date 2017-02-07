@@ -46,6 +46,13 @@ body {
     }
 }
 
+@media #{$medium-and-down} {
+    body {
+        background: #ffffff;
+    }
+
+}
+
 @media #{$small-and-down} {
     .wrap {
         margin-top: $navbar-height-mobile;
