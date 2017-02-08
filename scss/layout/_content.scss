@@ -795,6 +795,127 @@ span.more {
 //     }
 // }
 
+// History
+ul.history-list {
+    li {
+        position: relative;
+        margin: 50px 0;
+        padding: 10px 0;
+
+        span.history-year {
+            z-index: 1;
+            position: absolute;
+            left: 45px;
+            top: 0;
+            width: 44px;
+            height: 44px;
+            padding-left: 25px;
+            background-color: #afd5ff;
+            font-size: 24px;
+            line-height: 50px;
+            color: #1b73ff;
+            border-radius: 100%;
+            font-family: 'Prata', serif;
+        }
+
+        p {
+            display: block;
+            margin-left: 164px;
+            padding: 0;
+            line-height: 22px;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: 66px;
+            top: -50px;
+            width: 1px;
+            height: 50px;
+            background-color: #1076f8;
+        }
+
+        &:after {
+            content: "";
+            position: absolute;
+            left: 66px;
+            top: 0;
+            width: 1px;
+            height: 100%;
+            background-color: #1076f8;
+        }
+
+        &.history-begin {
+            margin-bottom: 50px;
+            padding: 0;
+
+            span.history-year {
+                left: 0;
+                width: 134px;
+                height: 134px;
+                padding: 0;
+                background-color: #308eff;
+                font-size: 34px;
+                line-height: 134px;
+                text-align: center;
+                color: #ffffff;
+            }
+
+            p {
+                line-height: 130px;
+            }
+
+            &:before {
+                display: none;
+            }
+
+            &:after {
+                left: 64px;
+                top: 148px;
+                width: 6px;
+                height: 6px;
+                border-radius: 6px;
+            }
+
+            + li {
+
+                &:before {
+                    left: 64px;
+                    top: -16px;
+                    width: 6px;
+                    height: 6px;
+                    border-radius: 6px;
+                }
+            }
+        }
+
+        &.history-end {
+
+            span.history-year {
+                background-color: #9cf0ce;
+                color: #008789;
+            }
+
+            &:after {
+                display: none;
+            }
+        }
+
+        &:first-of-type {
+            margin-top: 50px;
+            &:before {
+                top: -50px;
+                height: 50px;
+            }
+        }
+
+        &:last-of-type {
+                padding-bottom: 58px;
+        }
+    }
+}
+
+
 .detail {
     position: relative;
     width: 1060px;
