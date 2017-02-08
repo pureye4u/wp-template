@@ -1,17 +1,119 @@
-<div class="page">
-    <div class="page-body">
-        <ul class="page-hierarchy">
-            <li>ABOUT US</li>
-            <li>HISTORY</li>
-        </ul>
-        <div class="page-title">
-            <h3>History</h3>
-        </div>
-        <div class="page-content">
-            <img src="/wp-content/uploads/2016/11/left-1.png" alt="left" width="492" height="519" class="alignnone size-full wp-image-217" />
+
+<div class="en">
+
+    <div class="page">
+        <div class="page-body">
+            <ul class="page-hierarchy">
+                <li>ABOUT US</li>
+                <li>HISTORY</li>
+            </ul>
+            <div class="page-title">
+                <h3>History</h3>
+            </div>
+            <div class="page-content">
+                <ul class="history-list">
+                    <li class="history-begin">
+                        <span class="history-year">2006</span>
+                        <div class="history-list-item">Initial R&D for Skin Cell Activator</div>
+                    </li>
+                    <li>
+                        <span class="history-year">2011</span>
+                        <div class="history-list-item">Research Contract with Korea University Life Sciences and Biotechnology Team</div>
+                        <div class="history-list-item">Ophthalmological trials with Dr. Young C. Jeon at Yonsei Eye Center</div>
+                        <div class="history-list-item">Dermatological trials with Dr. YI Shin (ex-Director of BK Dermatology Center)</div>
+                        <div class="history-list-item">Biocoz Global Singapore Holding Company Established</div>
+                        <div class="history-list-item">Biocoz Global Korea Established</div>
+                    </li>
+                    <li>
+                        <span class="history-year">2013</span>
+                        <div class="history-list-item">Developed new bio ingredient for Dry Eye Syndrome Treatment</div>
+                        <div class="history-list-item">Developed customized skincare line: D.R.E.A.M.<br />(5 different ingredients)</div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
+    <div class="page">
+        <div class="page-body">
+            <div class="page-content">
+                <ul class="history-list">
+                    <li>
+                        <span class="history-year">2014</span>
+                        <div class="history-list-item">Formulation research with Cosmax for commercialization</div>
+                        <div class="history-list-item">Multi-functional skincare product development began</div>
+                        <div class="history-list-item">Domestic and US Patents Applied (3 Each)</div>
+                    </li>
+                    <li>
+                        <span class="history-year">2015</span>
+                        <div class="history-list-item">PCT International Patents Applied (3)</div>
+                        <div class="history-list-item">INCI(International Nomenclature of Cosmetic Ingredients) Assigned (2)</div>
+                    </li>
+                    <li class="history-end">
+                        <span class="history-year">2016</span>
+                        <div class="history-list-item">US Patent Applied (1)</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
 </div>
-<div class="page">
-    <img src="/wp-content/uploads/2016/11/right.png" alt="right" width="600" height="772" class="alignnone size-full wp-image-218" />
+<div class="kr">
+
+    <div class="page">
+        <div class="page-body">
+            <ul class="page-hierarchy">
+                <li>ABOUT US</li>
+                <li>HISTORY</li>
+            </ul>
+            <div class="page-title">
+                <h3>History</h3>
+            </div>
+            <div class="page-content">
+                <ul class="history-list">
+                    <li class="history-begin">
+                        <span class="history-year">2006</span>
+                        <div class="history-list-item">Skin cell activator 기초 R&D 시작</div>
+                    </li>
+                    <li>
+                        <span class="history-year">2011</span>
+                        <div class="history-list-item">고려대 생명공학연구팀과 연구계약 체결</div>
+                        <div class="history-list-item">연세안과 전영철 원장 임상 진행</div>
+                        <div class="history-list-item">前BK피부과 신영익 원장 임상 진행</div>
+                        <div class="history-list-item">Biocoz Global Pte. Ltd. Singapore Holding Company 설립</div>
+                        <div class="history-list-item">Biocoz Global Korea 설립</div>
+                    </li>
+                    <li>
+                        <span class="history-year">2013</span>
+                        <div class="history-list-item">안구건조증 치료제 신물질 추가</div>
+                        <div class="history-list-item">Skincare – D.R.E.A.M Line (기능별 원료 5종)</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="page">
+        <div class="page-body">
+            <div class="page-content">
+                <ul class="history-list">
+                    <li>
+                        <span class="history-year">2014</span>
+                        <div class="history-list-item">코스맥스와 화장품 상품화를 위한 제형 연구 협업</div>
+                        <div class="history-list-item">Multi-functional 스킨케어 제품화 시작</div>
+                        <div class="history-list-item">국내 및 미국 특허 각 3건 출원</div>
+                    </li>
+                    <li>
+                        <span class="history-year">2015</span>
+                        <div class="history-list-item">국제특허(PCT) 3건 출원</div>
+                        <div class="history-list-item">INCI (국제화장품원료집) 2건 등록</div>
+                    </li>
+                    <li class="history-end">
+                        <span class="history-year">2016</span>
+                        <div class="history-list-item">미국 특허 1건 출원</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
 </div>

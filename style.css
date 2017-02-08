@@ -2163,11 +2163,11 @@ ul.staggered-list li {
   .hide-on-med-only {
     display: none !important; } }
 
-@media only screen and (min-width: 1081px) {
+@media only screen and (min-width: 1201px) {
   .hide-on-large-only {
     display: none !important; } }
 
-@media only screen and (min-width: 1081px) {
+@media only screen and (min-width: 1201px) {
   .show-on-large {
     display: block !important; } }
 
@@ -2537,7 +2537,7 @@ input[type=range] + .thumb {
   .container {
     width: 85%; } }
 
-@media only screen and (min-width: 1081px) {
+@media only screen and (min-width: 1201px) {
   .container {
     width: 70%; } }
 
@@ -2835,7 +2835,7 @@ input[type=range] + .thumb {
         right: 100%; }
       .row .col.push-m12 {
         left: 100%; } }
-    @media only screen and (min-width: 1081px) {
+    @media only screen and (min-width: 1201px) {
       .row .col.l1 {
         width: 8.33333%;
         margin-left: auto;
@@ -2991,7 +2991,7 @@ nav {
   nav .nav-wrapper {
     position: relative;
     height: 100%; }
-  @media only screen and (min-width: 1081px) {
+  @media only screen and (min-width: 1201px) {
     nav a.button-collapse {
       display: none; } }
   nav .button-collapse {
@@ -3393,7 +3393,7 @@ small {
       left: 5%;
       bottom: 7%;
       max-width: 90%; } }
-  @media only screen and (min-width: 1081px) {
+  @media only screen and (min-width: 1201px) {
     #toast-container {
       top: 10%;
       right: 7%;
@@ -3431,7 +3431,7 @@ small {
   @media only screen and (min-width: 601px) and (max-width: 1200px) {
     .toast {
       float: left; } }
-  @media only screen and (min-width: 1081px) {
+  @media only screen and (min-width: 1201px) {
     .toast {
       float: right; } }
 
@@ -6515,16 +6515,16 @@ input, select {
   margin: 0 auto;
   color: #333; }
 
-body.en .contents.en {
+body.en .en {
   display: block; }
 
-body.en .contents.kr {
+body.en .kr {
   display: none; }
 
-body.kr .contents.en {
+body.kr .en {
   display: none; }
 
-body.kr .contents.kr {
+body.kr .kr {
   display: block; }
 
 .bg-book > .contents {
@@ -6676,7 +6676,7 @@ body.kr .contents.kr {
   width: 600px; }
   .dual-page .page .rnd-list .rnd-list-item {
     position: relative;
-    height: 124px;
+    height: 150px;
     margin: 30px 0; }
     .dual-page .page .rnd-list .rnd-list-item .list-thumb {
       position: absolute;
@@ -6707,9 +6707,12 @@ body.kr .contents.kr {
         overflow: hidden; }
       .dual-page .page .rnd-list .rnd-list-item .list-content .detail-list > li {
         padding: 2px 0 0 10px;
-        font-size: 12px;
         color: #555555;
-        line-height: 16px; }
+        font-size: 10px;
+        line-height: 14px; }
+      .dual-page .page .rnd-list .rnd-list-item .list-content.en .detail-list > li {
+        font-size: 10px;
+        line-height: 12px; }
       .dual-page .page .rnd-list .rnd-list-item .list-content .detail-content {
         display: none; }
   .dual-page .page .rnd-list2:first-child {
@@ -6851,10 +6854,9 @@ body.kr .contents.kr {
 
 span.more {
   display: block;
-  margin-top: 8px;
   text-align: right;
   color: #555555;
-  font-size: 13px;
+  font-size: 10px;
   font-style: italic;
   text-decoration: underline; }
 
@@ -6977,6 +6979,32 @@ span.more {
         margin: 0;
         padding: 0; }
 
+.address {
+  margin: 38px 0; }
+  .address .address-list {
+    position: relative;
+    margin: 15px 0; }
+    .address .address-list > img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 42px;
+      height: 42px; }
+    .address .address-list > .address-list-title {
+      margin-left: 64px;
+      font-size: 13px;
+      color: #92bffe; }
+      .address .address-list > .address-list-title > strong {
+        padding-right: 5px;
+        font-size: 18px;
+        color: #393939; }
+    .address .address-list > .address-list-content {
+      margin-left: 64px;
+      padding: 8px 0;
+      font-size: 13px;
+      line-height: 17px;
+      color: #777777; }
+
 .contents-empty {
   padding: 200px 70px;
   text-align: center; }
@@ -7067,7 +7095,7 @@ ul.history-list li {
     color: #1b73ff;
     border-radius: 100%;
     font-family: 'Prata', serif; }
-  ul.history-list li p {
+  ul.history-list li .history-list-item {
     display: block;
     margin-left: 164px;
     padding: 3px 0;
@@ -7102,7 +7130,7 @@ ul.history-list li {
       line-height: 134px;
       text-align: center;
       color: #ffffff; }
-    ul.history-list li.history-begin p {
+    ul.history-list li.history-begin .history-list-item {
       padding: 54px 0; }
     ul.history-list li.history-begin:before {
       display: none; }
@@ -7235,8 +7263,8 @@ ul.history-list li {
   padding-bottom: 30px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
   .content-body dl.thumb-title-description dt {
-    width: 124px;
-    height: 124px;
+    width: 122px;
+    height: 122px;
     border-radius: 100%;
     overflow: hidden; }
   .content-body dl.thumb-title-description dd {
@@ -7348,7 +7376,39 @@ ul.history-list li {
       margin-left: 0; }
       .dual-page .page .rnd-list .rnd-list-item .list-content .title,
       .dual-page .page .rnd-list .rnd-list-item .list-content .sub-title {
-        text-align: center; } }
+        text-align: center; }
+  .single-page .contents {
+    width: inherit; }
+    .single-page .contents > .title > img {
+      width: 100%; }
+  .dim {
+    padding-top: 80px; }
+  .detail {
+    width: inherit; }
+    .detail .btn-close-detail {
+      left: inherit;
+      right: 0;
+      top: 0;
+      width: 54px;
+      height: 54px;
+      overflow: hidden; }
+      .detail .btn-close-detail > img {
+        margin: -12px -7px; }
+    .detail .detail-btn-box {
+      display: none; }
+  .detail-content {
+    padding: 20px; }
+    .detail-content .hierarchy {
+      float: inherit;
+      height: 24px; }
+    .detail-content .content-body dl.define-list {
+      margin-top: 0;
+      margin-bottom: 20px; }
+      .detail-content .content-body dl.define-list > dt {
+        position: inherit;
+        padding: 10px 0; }
+      .detail-content .content-body dl.define-list > dd {
+        margin-left: 20px; } }
 
 @media only screen and (max-width: 600px) {
   .scroll-box {
@@ -7362,7 +7422,8 @@ ul.history-list li {
       width: 100%;
       height: auto; }
   .contact-form-container {
-    width: inherit; }
+    width: inherit;
+    border-width: 2px 0 0; }
     .contact-form-container > .input-box input[type=text] {
       width: 100%;
       padding: 0;
@@ -7385,7 +7446,9 @@ ul.history-list li {
       border-radius: 100%; }
     .theme-rnd-thumb-block > p {
       margin-left: 0;
-      text-align: left; } }
+      text-align: left; }
+  .dim {
+    padding-top: 56px; } }
 
 html, body {
   width: 100%;

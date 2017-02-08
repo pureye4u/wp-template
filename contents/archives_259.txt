@@ -1,0 +1,95 @@
+<div class="kr">
+    <dl class="thumb-title-description">
+        <dt><img src="/wp-content/uploads/2016/11/profile_06.jpg" alt="profile_06" width="122" height="122" class="alignnone size-full wp-image-266" /></dt>
+        <dd>Hiroshige Hayashi, Ph.D.</dd>
+        <dd>바이오코즈글로벌코리아 대표</dd>
+    </dl>
+    <dl class="define-list">
+        <dt>Detail</dt>
+        <dd>중국 시안 교통 대학 행정 대학원 객원 교수 (2012-현재)</dd>
+        <dd>일본 시가 대학 경제학부 대학원 경제학 연구과 교수 (2002-2004)</dd>
+        <dd>인디애나 대학 경영 대학원 MBA 과정 수료 (1972)</dd>
+        <dd>일본 시가 대학 산업 공동 연구 센터 소장</dd>
+        <dd>도시샤 대학 대학원 비즈니스 연구과 교수 (2004-2011)</dd>
+        <dd>교토 상공 회의소 교토 브랜드 추진 특별위원회 (2005-2010)</dd>
+        <dd>글로벌 마케팅 연구회 칸사이 공동 대표</dd>
+        <dd>DBS 마케팅 포럼 주재 (2006-2010)</dd>
+        <dd>HHP 유한 책임 사업 조합 설립, 강연회와 강좌 개최 (2011-2014)</dd>
+        <dd>일본 시가현 경제 활성화 프로그램 개발 자문 (2005-2007)</dd>
+        <dd>사업 승계 학회 이사장 (2014-현재)</dd>
+    </dl>
+    <dl class="define-list">
+        <dt>Publications</dt>
+        <dd>The Evolution of Japanese Marketing in the Age of Globalization. Proceedings of INFORMS Marketing<br />
+        Science Conference at INSEAD. France. July 1998.</dd>
+        <dd>“Originated-from-Japan” Brand Transfer to ROK, also “Originated-from-Korea” Brand Transfer to<br />
+        Japan at Sungkyunkwan University. Business School. Seoul. Korea. June 2001.</dd>
+        <dd>The Transfer to China of Brands Made in Japan, Korea, the USA, France and Germany: Practical<br />
+        Implications of the Effects of State Brands, COO Brands, and Corporate/ Line Brands. EAMSA(Euro-<br />
+        Asia Management Study Association) 2008 25th Conference.</dd>
+        <dd>이 외 10편의 논문 발간</dd>
+    </dl>
+    <dl class="define-list">
+        <dt>Books</dt>
+        <dd>처음의 마케팅 (1998)</dd>
+        <dd>프로액티브 마케팅 (한국,1992)</dd>
+        <dd>한일 마케팅 이야기 (한국, 1997)</dd>
+        <dd>국경을 넘는 마케팅 (1999)</dd>
+        <dd>국경을 넘는 마케팅 (한국, 2004)</dd>
+        <dd>미나카이 백화점 (2004)</dd>
+        <dd>미나카이 백화점 (한국, 2007)</dd>
+        <dd>한일 기업 전쟁 (2007)</dd>
+        <dd>지역 브랜드 전략 (2011)</dd>
+        <dd>AJINOMOTO 글로벌 경쟁 전략 (2012)</dd>
+        <dd>일본 기업의 마케팅 전략 (2014)</dd>
+        <dd>신문∙TV가 전하지 않은 북한 (2012)</dd>
+        <dd>현대 한국을 배우다 (2012)</dd>
+    </dl>
+</div>
+<div class="en">
+    <dl class="thumb-title-description">
+        <dt><img src="/wp-content/uploads/2016/11/profile_06.jpg" alt="profile_06" width="122" height="122" class="alignnone size-full wp-image-266" /></dt>
+        <dd>Hiroshige Hayashi, Ph.D.</dd>
+        <dd>President of Biocoz Global Korea</dd>
+    </dl>
+    <dl class="define-list">
+        <dt>Detail</dt>
+        <dd>CEO for Asia, Ipsos-Novaction Asia (1978-2004)</dd>
+        <dd>Professor, Doshisha University (2004-Present)</dd>
+        <dd>Visiting Professor, Graduate School of Public  Administration, Xi’an Jiao Tong University China (2012-present)</dd>
+        <dd>Professor, Department of Economics, Graduate School of Economics, Shiga University, Japan (2002-2004)</dd>
+        <dd>Indiana University Graduate School of Business MBA (1972)</dd>
+        <dd>Director, Center for Industry Research, Shiga University, Japan</dd>
+        <dd>Professor, Graduate School of Business, Doshisha University (2004-2011)</dd>
+        <dd>Kyoto Brand Promotion Committee, Kyoto Chamber of Commerce and Industry (2005-2010)</dd>
+        <dd>Co-representative, Kansai Global Marketing Research Society)</dd>
+        <dd>Founder and Lecturer, HHP Limited Liability Business Association (2011-2014)</dd>
+        <dd>Advisor, Economic Development Program Development in Shiga Prefecture, Japan (2005-2007)</dd>
+        <dd>President, Business Succession Society, Japan (2014-Present)</dd>
+    </dl>
+    <dl class="define-list">
+        <dt>Publications</dt>
+        <dd>The Evolution of Japanese Marketing in the Age of Globalization. Proceedings of INFORMS Marketing<br />
+        Science Conference at INSEAD. France. July 1998.</dd>
+        <dd>“Originated-from-Japan” Brand Transfer to ROK, also “Originated-from-Korea” Brand Transfer to<br />
+        Japan at Sungkyunkwan University. Business School. Seoul. Korea. June 2001.</dd>
+        <dd>The Transfer to China of Brands Made in Japan, Korea, the USA, France and Germany: Practical<br />
+        Implications of the Effects of State Brands, COO Brands, and Corporate/ Line Brands. EAMSA(Euro-<br />
+        Asia Management Study Association) 2008 25th Conference.</dd>
+        <dd>And 10 More</dd>
+    </dl>
+    <dl class="define-list">
+        <dt>Books</dt>
+        <dd>First Marketing (Japan, 1998)</dd>
+        <dd>Proactive Marketing (Korea, 1992)</dd>
+        <dd>Korea-Japan Marketing (Korea 1997)</dd>
+        <dd>Marketing Across the Border (Japan, 1999, Korea, 2004)</dd>
+        <dd>Minakai Department Store (Japan, 2004, Korea, 2007)</dd>
+        <dd>Korea-Japan Corporate War (2007)</dd>
+        <dd>Local Brand Strategy (2011)</dd>
+        <dd>AJINOMOTO Global Competitive Strategy (2012)</dd>
+        <dd>Japanese Companies’ Marketing Strategy (2014)</dd>
+        <dd>North Korea, Things that Media Would Not Tell (2012)</dd>
+        <dd>Learn Modern Korea (2012)</dd>
+    </dl>
+</div>

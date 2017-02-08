@@ -21,6 +21,8 @@
 <link href="https://fonts.googleapis.com/css?family=Cantata+One" rel="stylesheet">
 <link rel="stylesheet" href="../../style.css">
 <script src="http://52.199.194.21/wp-content/themes/biocoz_theme/js/jquery-3.1.1.min.js"></script>
+<script src="../../js/jquery.cookie.js"></script>
+<script src="../../js/langswitch.js"></script>
 <script src="http://52.199.194.21/wp-content/themes/biocoz_theme/js/materialize.min.js"></script>
 <link rel='dns-prefetch' href='//s.w.org'/>
 		<script type="text/javascript">window._wpemojiSettings={"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/52.199.194.21\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.3"}};!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);</script>
@@ -62,9 +64,9 @@
             </ul>
             <div class="highlight-bar"></div>
         </div>
-        <ul class="language-box hide-on-med-and-down" style="display:none;">
-            <li><a href="#kr">KOREAN</a></li>
-            <li><a href="#en">ENGLISH</a></li>
+        <ul class="language-box hide-on-med-and-down">
+            <li><a href="#kr" class="btn-lang-kr">KOREAN</a></li>
+            <li><a href="#en" class="btn-lang-en">ENGLISH</a></li>
         </ul>
     </div>
 
@@ -86,78 +88,150 @@ for(j=0;j<m;++j){if(paths[i][j]===path){console.log("Found",i);var list=$("#menu
             <img class="floating-object top-right" src="http://52.199.194.21/wp-content/themes/biocoz_theme/imgs/common/xbg_obj04.png.pagespeed.ic.edU5KM_9w3.png" pagespeed_url_hash="3829166291" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
             <div class="bg-book">
                 <div class="contents">
-
-					<div class="page">
-					    <div class="page-body">
-					        <ul class="page-hierarchy">
-					            <li>R&D</li>
-					            <li>R&D</li>
-					        </ul>
-					        <div class="page-title">
-					            <h3>R&D</h3>
-					        </div>
-					        <div class="page-content">
-								<h4 class="theme-rnd-title">SPM</h4>
-								<div class="theme-rnd-thumb-block">
-									<img src="http://52.199.194.21/wp-content/uploads/2016/11/img.png" />
-									<p class="theme-rnd-desc">'SPM'은 <strong>BIOCOZ GLOBAL</strong>의 자체 명칭입니다.</p>
-									<p class="theme-rnd-headline">세계 최고 과학자들의 연구를 통해 탄생한<strong>BIOCOZ GLOBAL의 독자적 원료</strong>로,<br />뛰어난 피부세포 활성화 기능을 하는<br />슈퍼 단백질을 포함하여 피부에 유효하고 안전한 성분들로 이루어져 있습니다.</p>
+					<div class="kr">
+						<div class="page">
+						    <div class="page-body">
+						        <ul class="page-hierarchy">
+						            <li>R&D</li>
+						            <li>R&D</li>
+						        </ul>
+						        <div class="page-title">
+						            <h3>R&D</h3>
+						        </div>
+						        <div class="page-content">
+									<h4 class="theme-rnd-title">SPM</h4>
+									<div class="theme-rnd-thumb-block">
+										<img src="http://52.199.194.21/wp-content/uploads/2016/11/img.png" />
+										<p class="theme-rnd-desc">'SPM'은 <strong>BIOCOZ GLOBAL</strong>의 자체 명칭입니다.</p>
+										<p class="theme-rnd-headline">세계 최고 과학자들의 연구를 통해 탄생한<strong>BIOCOZ GLOBAL의 독자적 원료</strong>로,<br />뛰어난 피부세포 활성화 기능을 하는<br />슈퍼 단백질을 포함하여 피부에 유효하고 안전한 성분들로 이루어져 있습니다.</p>
+									</div>
+									<div>
+										<p class="theme-rnd-normal">‘SPM’은 암세포 성장에 영향을 주지 않는<br /><strong>superior한 효능과 안전성</strong>을 보여 다양한 제품에 적용될 수 있습니다.
+	‘SPM’은 국제 화장품 성분 사전인 <strong>INCI</strong>에 등록되어 있으며,<br />Harvard Medical School 부속 의료원에<br />“In-and-Out” Skincare Solution Line을 초기 제공할 예정입니다.</p>
+									</div>
+						        </div>
+						    </div>
+						</div>
+						<div class="page">
+						    <div class="page-body">
+								<div class="page-content">
+									<table class="theme-rnd-table" style="margin-top:60px">
+										<colgroup>
+											<col style="width:70px">
+											<col style="width:50px">
+											<col>
+										</colgroup>
+										<thead>
+											<tr>
+												<td colspan="3">R&D Advancement</td>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Phase I</td>
+												<td>2006</td>
+												<td>
+													<p>싱가포르 국립 대학교 의과대학교수와 Skin cell activator 기초 R&D 시작</p>
+													<ul>
+														<li>피부 노화 및 피부 장벽 손상을 획기적으로 개선할 수 있는 바이오 후보물질 연구</li>
+														<li>안구 건조 증상을 개선할 수 있는 바이오 후보물질 연구</li>
+													</ul>
+												</td>
+											</tr>
+											<tr>
+												<td>Phase II</td>
+												<td>2011</td>
+												<td>심화연구를 위하여 최고 연구 책임자로 고려대학교 김찬화 석좌교수 위촉</td>
+											</tr>
+											<tr>
+												<td>Phase III</td>
+												<td>2014</td>
+												<td>과학 자문 위원장으로 Prof. Anthony J. Sinskey 위촉</td>
+											</tr>
+											<tr>
+												<td>Phase IV</td>
+												<td>2016</td>
+												<td>의료 자문 위원장으로  Dr. Martin C. Mihm 위촉</td>
+											</tr>
+										</tbody>
+									</table>
+									<p class="theme-rnd-normal">* 더 많은 과학 정보가 필요하시다면, 메뉴 상단의  <a href="">Contact Us</a> 를 통해 문의하시기 바랍니다.</p>
 								</div>
-								<div>
-									<p class="theme-rnd-normal">‘SPM’은 암세포 성장에 영향을 주지 않는<br /><strong>superior한 효능과 안전성</strong>을 보여 다양한 제품에 적용될 수 있습니다.
-‘SPM’은 국제 화장품 성분 사전인 <strong>INCI</strong>에 등록되어 있으며,<br />Harvard Medical School 부속 의료원에<br />“In-and-Out” Skincare Solution Line을 초기 제공할 예정입니다.</p>
-								</div>
-					        </div>
-					    </div>
-					</div>
-					<div class="page">
-					    <div class="page-body">
-							<div class="page-content">
-								<table class="theme-rnd-table" style="margin-top:60px">
-									<colgroup>
-										<col style="width:70px">
-										<col style="width:50px">
-										<col>
-									</colgroup>
-									<thead>
-										<tr>
-											<td colspan="3">R&D Advancement</td>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Phase I</td>
-											<td>2006</td>
-											<td>
-												<p>싱가포르 국립 대학교 의과대학교수와 Skin cell activator 기초 R&D 시작</p>
-												<ul>
-													<li>피부 노화 및 피부 장벽 손상을 획기적으로 개선할 수 있는 바이오 후보물질 연구</li>
-													<li>안구 건조 증상을 개선할 수 있는 바이오 후보물질 연구</li>
-												</ul>
-											</td>
-										</tr>
-										<tr>
-											<td>Phase II</td>
-											<td>2011</td>
-											<td>심화연구를 위하여 최고 연구 책임자로 고려대학교 김찬화 석좌교수 위촉</td>
-										</tr>
-										<tr>
-											<td>Phase III</td>
-											<td>2014</td>
-											<td>과학 자문 위원장으로 Prof. Anthony J. Sinskey 위촉</td>
-										</tr>
-										<tr>
-											<td>Phase IV</td>
-											<td>2016</td>
-											<td>의료 자문 위원장으로  Dr. Martin C. Mihm 위촉</td>
-										</tr>
-									</tbody>
-								</table>
-								<p class="theme-rnd-normal">* 더 많은 과학 정보가 필요하시다면, 메뉴 상단의  <a href="">Contact Us</a> 를 통해 문의하시기 바랍니다.</p>
 							</div>
 						</div>
 					</div>
 
+					<div class="en">
+						<div class="page">
+							<div class="page-body">
+								<ul class="page-hierarchy">
+									<li>R&D</li>
+									<li>R&D</li>
+								</ul>
+								<div class="page-title">
+									<h3>R&D</h3>
+								</div>
+								<div class="page-content">
+									<h4 class="theme-rnd-title">SPM</h4>
+									<div class="theme-rnd-thumb-block">
+										<img src="http://52.199.194.21/wp-content/uploads/2016/11/img.png" />
+										<p class="theme-rnd-desc">'SPM'is an exclusive product of <strong>BIOCOZ GLOBAL</strong> developed by globally renowned scientists.</p>
+										<p class="theme-rnd-headline">It is composed of effective and safe ingredients including Super Protein with outstanding skin cell activating function.</p>
+									</div>
+									<div>
+										<p class="theme-rnd-normal">‘SPM’ has <strong>superior efficacy and safety</strong> to the existing growth factor, showing no effect on cancer cell growth, applicable to various skincare and biotherapeutic products with no risk.<br />‘SPM’ is an <strong>INCI</strong> (International Nomenclature of Cosmetic Ingredients) assigned ingredient and will be initially applied to “In-and-Out” Skincare Solution for Harvard Medical School-affiliated hospitals.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="page">
+							<div class="page-body">
+								<div class="page-content">
+									<table class="theme-rnd-table" style="margin-top:60px">
+										<colgroup>
+											<col style="width:70px">
+											<col style="width:50px">
+											<col>
+										</colgroup>
+										<thead>
+											<tr>
+												<td colspan="3">R&D Advancement</td>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Phase I</td>
+												<td>2006</td>
+												<td>
+													<p>Skin cell activator research with a team at National University of Singapore Hospital</p>
+													<ul>
+														<li>Bio-ingredient for skin aging improvement and skin barrier damaging improvement</li>
+														<li>Bio-ingredient for dry eye syndrome treatment</li>
+													</ul>
+												</td>
+											</tr>
+											<tr>
+												<td>Phase II</td>
+												<td>2011</td>
+												<td>Appointed Prof. Chan-Wha Kim as Chief Research Officer for intensive research</td>
+											</tr>
+											<tr>
+												<td>Phase III</td>
+												<td>2014</td>
+												<td>Appointed Prof. Anthony J. Sinskey as the Head of Scientific Advisory Board</td>
+											</tr>
+											<tr>
+												<td>Phase IV</td>
+												<td>2016</td>
+												<td>Appointed Dr. Martin C. Mihm Jr. as the Head of Medical Advisory Board</td>
+											</tr>
+										</tbody>
+									</table>
+									<p class="theme-rnd-normal">* If you need any further scientific information, please contact us through the  <a href="">Contact Us</a> tab</p>
+								</div>
+							</div>
+						</div>
+					</div>
 	            </div>
 	        </div>
 	    </div>

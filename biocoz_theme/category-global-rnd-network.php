@@ -20,6 +20,8 @@
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 <script src="<?php bloginfo('template_url'); ?>/js/jquery-3.1.1.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/materialize.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/jquery.cookie.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/langswitch.js"></script>
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>

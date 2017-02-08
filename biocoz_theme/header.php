@@ -1,14 +1,14 @@
 <ul class="side-nav" id="mobile-demo">
     <li><a href="/ceo-message/">ABOUT US</a></li>
-    <li class="submenu"><a href="/ceo-message/">CEO MESSAGE</a></li>
-    <li class="submenu"><a href="/history/">HISTORY</a></li>
+    <li class="submenu"><a href="/about-us/ceo-message/">CEO MESSAGE</a></li>
+    <li class="submenu"><a href="/about-us/history/">HISTORY</a></li>
     <li><a href="/global-rd-network/">R&amp;D</a></li>
-    <li class="submenu"><a href="/global-rd-network/">GLOBAL R&amp;D NETWORK</a></li>
-    <li class="submenu"><a href="/research-material-list-page-1/">RESEARCH MATERIAL</a></li>
+    <li class="submenu"><a href="/rd/global-rd-network/">GLOBAL R&amp;D NETWORK</a></li>
+    <li class="submenu"><a href="/rd/rd/">R&amp;D</a></li>
     <li><a href="/archives/category/press/">PRESS</a></li>
     <li><a href="/contact-us/">CONTACT US</a></li>
-    <li class="language"><a href="">KR</a></li>
-    <li class="language"><a href="">EN</a></li>
+    <li class="language"><a href="#kr" class="btn-lang-kr">KR</a></li>
+    <li class="language"><a href="#en" class="btn-lang-en">EN</a></li>
 </ul>
 <nav>
     <div class="nav-wrapper">
@@ -16,27 +16,27 @@
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <div class="gnb">
             <ul id="menu" class="normal center hide-on-med-and-down">
-                <li><a class="dropdown-button" href="/ceo-message/" data-activates="dropdown1"><span>ABOUT US</span></a></li>
-                <li><a class="dropdown-button" href="/global-rd-network/" data-activates="dropdown2"><span>R&amp;D</span></a></li>
+                <li><a class="dropdown-button" href="/about-us/ceo-message/" data-activates="dropdown1"><span>ABOUT US</span></a></li>
+                <li><a class="dropdown-button" href="/rd/global-rd-network/" data-activates="dropdown2"><span>R&amp;D</span></a></li>
                 <li><a href="/archives/category/press/"><span>PRESS</span></a></li>
                 <li><a href="/contact-us/"><span>CONTACT US</span></a></li>
             </ul>
             <div class="highlight-bar"></div>
         </div>
-        <ul class="language-box hide-on-med-and-down" style="display:none;">
-            <li><a href="#kr">KOREAN</a></li>
-            <li><a href="#en">ENGLISH</a></li>
+        <ul class="language-box hide-on-med-and-down">
+            <li><a href="#kr" class="btn-lang-kr">KOREAN</a></li>
+            <li><a href="#en" class="btn-lang-en">ENGLISH</a></li>
         </ul>
     </div>
 
     <ul id='dropdown1' class='dropdown-content'>
-        <li><a href="/ceo-message/">CEO MESSAGE</a></li>
-        <li><a href="/history/">HISTORY</a></li>
+        <li><a href="/about-us/ceo-message/">CEO MESSAGE</a></li>
+        <li><a href="/about-us/history/">HISTORY</a></li>
     </ul>
 
     <ul id='dropdown2' class='dropdown-content'>
-        <li><a href="/global-rd-network/">GLOBAL R&amp;D NETWORK</a></li>
-        <li><a href="/research-material-list-page-1/">RESEARCH MATERIAL</a></li>
+        <li><a href="/rd/global-rd-network/">GLOBAL R&amp;D NETWORK</a></li>
+        <li><a href="/rd/rd/">R&amp;D</a></li>
     </ul>
 </nav>
 <script>
@@ -44,18 +44,11 @@ var paths = [
     ['about-us/ceo-message', 'about-us/history'],
     [
         'rd/global-rd-network',
-        'rd/research-material-list-page-1',
-        'rd/research-material-list-page-2',
-        'rd/research-material-list-page-3',
+        'rd/rd',
         'archives/93',
         'archives/97',
         'archives/117',
-        'archives/124',
-        'archives/126',
-        'archives/128',
-        'archives/130',
-        'archives/132',
-        'archives/134',
+        'archives/259',
     ],
     ['archives/category/press'],
     ['contact-us']

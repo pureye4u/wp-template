@@ -1,45 +1,71 @@
-<div class="page">
-    <div class="page-body">
-        <ul class="page-hierarchy">
-            <li>CONTACT US</li>
-        </ul>
-        <div class="page-title">
-            <h3>CONTACT US</h3>
-        </div>
-        <div class="map-area">
-            <div id="mapContainer" class="map ko">
-                <img id="mapKo" src="/wp-content/uploads/2016/11/map_ko-1.png" alt="map_ko" width="492" height="286" class="alignnone size-full wp-image-150" /><img id="mapSg" src="/wp-content/uploads/2016/11/map_sg.png" alt="map_sg" width="492" height="287" class="alignnone size-full wp-image-59" />
-            </div>
-            <div class="tab">
-                <button id="btnMapKo" />
-                <button id="btnMapSg" />
-            </div>
 
-            <script>
-            $(function() {
-                $("#btnMapKo").click(function() {
-                    $("#mapContainer").removeClass("sg").addClass("ko");
-                });
-                $("#btnMapSg").click(function() {
-                    $("#mapContainer").removeClass("ko").addClass("sg");
-                });
-            })
-            </script>
-        </div>
-        <div class="address">
-            <img src="/wp-content/uploads/2016/11/txt_addr-1.png" alt="txt_addr" width="492" height="220" class="alignnone size-full wp-image-236" />
+    <div class="page">
+        <div class="page-body">
+            <ul class="page-hierarchy">
+                <li>CONTACT US</li>
+            </ul>
+            <div class="page-title">
+                <h3>CONTACT US</h3>
+            </div>
+            <div class="map-area">
+                <div id="mapContainer" class="map ko">
+                    <img id="mapKo" src="/wp-content/uploads/2016/11/map_ko-1.png" alt="map_ko" width="492" height="286" class="alignnone size-full wp-image-150" /><img id="mapSg" src="/wp-content/uploads/2016/11/map_sg.png" alt="map_sg" width="492" height="287" class="alignnone size-full wp-image-59" />
+                </div>
+                <div class="tab">
+                    <button id="btnMapKo" />
+                    <button id="btnMapSg" />
+                </div>
+
+                <script>
+                $(function() {
+                    $("#btnMapKo").click(function() {
+                        $("#mapContainer").removeClass("sg").addClass("ko");
+                    });
+                    $("#btnMapSg").click(function() {
+                        $("#mapContainer").removeClass("ko").addClass("sg");
+                    });
+                })
+                </script>
+            </div>
+            <ul class="address">
+                <li class="address-list">
+                    <img src="/wp-content/uploads/2016/11/flag_sg.jpg" alt="flag_sg" width="42" height="42" class="alignnone size-full wp-image-251" />
+                    <div class="address-list-title"><strong>SINGAPORE</strong>OFFICE Address</div>
+                    <div class="address-list-content">10 Anson Rd. #23-14Q International Plaza Singapore</div>
+                </li>
+                <li class="address-list">
+                    <img src="/wp-content/uploads/2016/11/flag_ko.jpg" alt="flag_ko" width="42" height="42" class="alignnone size-full wp-image-251" />
+                    <div class="address-list-title"><strong>KOREA</strong>OFFICE Address</div>
+                    <div class="address-list-content kr">서울시 서초구 서초대로 397 부띠크모나코 B동 1304호</div>
+                    <div class="address-list-content en">Boutique Monaco B-1304, 397, Seocho-daero, Seocho-gu, Seoul, Republic of Korea</div>
+                </li>
+                <li class="address-list">
+                    <img src="/wp-content/uploads/2016/11/flag_us.jpg" alt="flag_us" width="42" height="42" class="alignnone size-full wp-image-251" />
+                    <div class="address-list-title"><strong>US</strong>OFFICE Address</div>
+                    <div class="address-list-content">TEL: (617)804-6224</div>
+                </li>
+            </ul>
         </div>
     </div>
-</div>
-<div class="page">
-    <div class="contact-form-container">
-        <h3 class="title">문의하기</h3>
-        <div class="input-box">
-            <input type="text" placeholder="제목" />
-            <input type="text" placeholder="이름" />
-            <input type="text" placeholder="이메일" />
-            <textarea placeholder="내용"></textarea>
+    <div class="page">
+        <div class="contact-form-container kr">
+            <h3 class="title">문의하기</h3>
+            <div class="input-box">
+                <input type="text" placeholder="제목" />
+                <input type="text" placeholder="이름" />
+                <input type="text" placeholder="이메일" />
+                <textarea placeholder="내용"></textarea>
+            </div>
+            <a class="waves-effect waves-light btn">문의하기</a>
         </div>
-        <a class="waves-effect waves-light btn">문의하기</a>
+        <div class="contact-form-container en">
+            <h3 class="title en">Submit your inquiry</h3>
+            <div class="input-box">
+                <input type="text" placeholder="Subject" />
+                <input type="text" placeholder="Name" />
+                <input type="text" placeholder="E-mail" />
+                <textarea placeholder="Contents"></textarea>
+            </div>
+            <a class="waves-effect waves-light btn">Submit</a>
+        </div>
     </div>
-</div>
