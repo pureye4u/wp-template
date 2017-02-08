@@ -6515,6 +6515,18 @@ input, select {
   margin: 0 auto;
   color: #333; }
 
+body.en .contents.en {
+  display: block; }
+
+body.en .contents.kr {
+  display: none; }
+
+body.kr .contents.en {
+  display: none; }
+
+body.kr .contents.kr {
+  display: block; }
+
 .bg-book > .contents {
   height: 772px; }
 
@@ -7058,8 +7070,9 @@ ul.history-list li {
   ul.history-list li p {
     display: block;
     margin-left: 164px;
-    padding: 0;
-    line-height: 22px; }
+    padding: 3px 0;
+    font-size: 14px;
+    line-height: 16px; }
   ul.history-list li:before {
     content: "";
     position: absolute;
@@ -7090,7 +7103,7 @@ ul.history-list li {
       text-align: center;
       color: #ffffff; }
     ul.history-list li.history-begin p {
-      line-height: 130px; }
+      padding: 54px 0; }
     ul.history-list li.history-begin:before {
       display: none; }
     ul.history-list li.history-begin:after {
